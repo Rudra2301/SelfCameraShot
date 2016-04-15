@@ -1,0 +1,186 @@
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+ 
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+
+    <!-- Info  -->
+    <string name="alert_welcomeDialog_title">"Hei"</string>
+    <string name="alert_welcomeDialog_Message">"Tämä sovellus avulla voit ottaa kuvia kaukaista jollakin seuraavista tavoista: \n \n  - vihellys."</string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">"Ei voi yhdistää kameraan"</string>
+    <string name="alert_error_micFailed">"Ei aktivoidu mikrofoni"</string>
+    <string name="alert_error_photoSaveFailed">"Tallennus epäonnistui kuva"</string>
+
+
+    <!-- Warning  -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">"Pro ominaisuus"</string>
+    <string name="pro_proFeatureDialog_cancelBtn">"peruuttaa"</string>
+    <string name="pro_proFeatureDialog_okBtn">"Ostaa"</string>
+    <string name="pro_proFeatureDialog_clappingMessage">"Mode \"kädet taputtaa\" on saatavilla vain Pro-versio"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">"Asetukset"</string>
+
+    <!-- General  -->
+    <string name="pref_headerTitle_general">"Yleinen"</string>
+    <string name="pref_language_title">"Kieli"</string>
+
+
+    <!-- Main settings  -->
+    <string name="pref_headerTitle_mainCameraSettings">"Tärkeimmät kameran asetuksia"</string>
+    <string name="pref_catTitle_general">"Yleinen"</string>
+    <string name="pref_enableShutterSound_title">"Ota suljinääni"</string>
+    <string name="pref_pictureSize_title">"Kuvakoko"</string>
+    <string name="pref_focusMode_title">"Focus mode"</string>
+    <string name="pref_focusMode_disabled">"Vammaiset"</string>
+    <string name="pref_focusMode_auto">"Auto"</string>
+    <string name="pref_focusMode_continuous">"Jatkuva"</string>
+    <string name="pref_focusMode_infinity">"Äärettömyys"</string>
+    <string name="pref_focusMode_macro">"Makro"</string>
+    <string name="pref_focusMode_fixed">"Kiinteä"</string>
+    <string name="pref_sceneMode_title">"Scene mode"</string>
+    <string name="pref_sceneMode__auto">"Auto"</string>
+    <string name="pref_sceneMode__action">"Toiminta"</string>
+    <string name="pref_sceneMode__barcode">"Viivakoodi"</string>
+    <string name="pref_sceneMode__beach">"Ranta"</string>
+    <string name="pref_sceneMode__candlelight">"Kynttilän valossa"</string>
+    <string name="pref_sceneMode__fireworks">"Ilotulitus"</string>
+    <string name="pref_sceneMode__hdr">"HDR"</string>
+    <string name="pref_sceneMode__landscape">"Maisema"</string>
+    <string name="pref_sceneMode__night">"Yö"</string>
+    <string name="pref_sceneMode__party">"Puolue"</string>
+    <string name="pref_sceneMode__portrait">"Muotokuva"</string>
+    <string name="pref_sceneMode__snow">"Lumi"</string>
+    <string name="pref_sceneMode__sports">"Urheilu"</string>
+    <string name="pref_sceneMode__steadyphoto">"Vakaa kuva"</string>
+    <string name="pref_sceneMode__sunset">"Auringonlasku"</string>
+    <string name="pref_sceneMode__theatre">"Teatteri"</string>
+
+
+
+    <!-- advanced  settings -->
+    <string name="pref_headerTitle_advancedCameraSettings">"Kameran lisäasetukset"</string>
+    <string name="pref_previewSize_title">"Esikatselu Koko"</string>
+ 
+    <string name="pref_enableScreenFlash_title">"Käytä ruudulla salaman valo"</string>
+    <string name="pref_enableScreenFlash_Description">"Jos etukameraa ei ole salama, näyttö muuttuu valkoiseksi"</string>
+    <string name="pref_enableTouchToFocus_title">"Ota käyttöön \"touch keskittyä\""</string>
+    <string name="pref_enableLocationRecording_title">"Tallenna paikka"</string>
+
+
+
+    <!-- remote  -->
+    <string name="pref_headerTitle_remoteControl">"Kaukosäädin"</string>
+    <string name="pref_catTitle_remoteControl">"Kaukosäädin"</string>
+    <string name="pref_remoteMode_title">"Säätötapa"</string>
+    <string name="pref_remoteMode_disabled">"Vammaiset"</string>
+    <string name="pref_remoteMode_whistle">"Pilli"</string>
+    <string name="pref_remoteMode_clapping">"Kädet taputus"</string>
+    <string name="pref_remoteModeDelay_title">"Viive ennen kuvan"</string>
+    <string name="pref_remoteModeDelay_formattedValue">"%1$d sekunnin"</string>
+    <string name="pref_whistleSensitivity_title">"Sound Herkkyys"</string>
+    <string name="pref_catTitle_whistlingControl">"Pilli"</string>
+
+
+
+    <!-- Activators  -->
+    <string name="pref_headerTitle_activators">"Aktivaattorit"</string>
+    <string name="pref_catTitle_activators">"Aktivaattorit"</string>
+    <string name="pref_volumeButtonsActivator_title">"Äänenvoimakkuuspainikkeet"</string>
+    <string name="pref_activator__disabled">"Vammaiset"</string>
+    <string name="pref_activator__shutter">"Suljin"</string>
+    <string name="pref_activator__zoom">"Zoomaus"</string>
+    <string name="pref_catTitle_advancedCamSettings">"Kameran lisäasetukset"</string>
+
+
+    <!-- UI  -->
+    <string name="pref_headerTitle_ui">"Käyttöliittymä"</string>
+    <string name="pref_showZoomUi_title">"Näytä zoomaussäädintä"</string>
+    <string name="pref_showZoomUi_summary">"Voit säätää zoomia käyttämällä pystysuoraa pyyhkäisee"</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">"Galleria on tyhjä"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">"Meistä"</string>
+    <string name="about_legalNotices_btn">"Oikeudellinen huomautus"</string>
+    <string name="about_legalNotices_windowTitle">"Oikeudellinen huomautus"</string>
+    <string name="about_developedBy">"Kehittämä Ouadban Youssef"</string>
+    <string name="about_sendUsEmail_btn">"Lähetä meille sähköpostia"</string>
+    <string name="about_upgrade_btn">"Päivitä Pro-versio"</string>
+    <string name="about_contributions_btn">"Avustukset"</string>
+    <string name="about_contributions_windowTitle">"Avustukset"</string>
+    <string name="about_otherApps_btn">"Sovellukset"</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">"Arvioi app"</string>
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+ 
+    <string name="devApps_tiltScroll_description">"
+        Tämä sovellus avulla voit selata näytön vain kallistamalla laitetta, ja toimii kaikkien muiden sovellusten
+    "</string>
+
+
+
+
+
+
+</resources>

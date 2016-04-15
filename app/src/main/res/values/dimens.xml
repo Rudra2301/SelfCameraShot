@@ -1,0 +1,75 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- Page -->
+    <dimen name="page_padding">7dp</dimen>
+
+    <!-- Action bar -->
+    <dimen name="actionBar_height">7dp</dimen>
+
+    <!-- camera -->
+    <dimen name="camera_btn_padding">7dp</dimen>
+    <dimen name="camera_btn_borderWidth">1dp</dimen>
+
+    <dimen name="camera_captureBtn_size">100dp</dimen>
+    <dimen name="camera_captureBtn_padding">15dp</dimen>
+    <dimen name="camera_captureBtn_edgeMargin">15dp</dimen>
+
+    <dimen name="camera_zoom_progressRadius">3dp</dimen>
+    <dimen name="camera_zoom_thumbSize">20dp</dimen>
+    <dimen name="camera_zoom_thumbOffset">10dp</dimen>
+    <dimen name="camera_zoom_progressWidth">2dp</dimen>
+    <dimen name="camera_zoom_padding">10dp</dimen>
+    <dimen name="camera_zoom_panelCornerRadius">10dp</dimen>
+    <dimen name="camera_zoom_shadowPadding">1dp</dimen>
+
+    <dimen name="camera_qmenu_size">40dp</dimen>
+    <dimen name="camera_thumbnail_size">40dp</dimen>
+
+    <dimen name="camera_overlay_timerTextSize">100sp</dimen>
+    <dimen name="camera_overlay_shadowRadius">3dp</dimen>
+
+    <dimen name="camera_focus_frameStrokeSize">2dp</dimen>
+
+
+
+    <!-- About -->
+    <dimen name="about_vspace">7dp</dimen>
+    <dimen name="about_logoTopMargin">50dp</dimen>
+    <dimen name="about_itemSpacing">7dp</dimen>
+    <dimen name="about_sectionSpacing">7dp</dimen>
+
+
+
+    <!--  heightlight -->
+    <dimen name="heightlight_radius">7dp</dimen>
+    <dimen name="heightlight_padding">3dp</dimen>
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+    <dimen name="pro_buy_btn_textSize">17sp</dimen>
+    <dimen name="pro_features_item_padding">7dp</dimen>
+    <dimen name="pro_features_textSize">13sp</dimen>
+    <dimen name="pro_feature_freeValue_rmargin">3dp</dimen>
+    <dimen name="pro_featuresList_corner">15dp</dimen>
+    <dimen name="pro_lockDialog_messageTextSize">17sp</dimen>
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Default Buttons  -->
+    <!-- ======================================================================================= -->
+    <dimen name="btn_radius">5dp</dimen>
+    <dimen name="btn_padding">3dp</dimen>
+    <dimen name="btn_textSize">12sp</dimen>
+    <dimen name="btn_margin">7dp</dimen>
+    <dimen name="btn_strokeSize">1dp</dimen>
+
+
+</resources>

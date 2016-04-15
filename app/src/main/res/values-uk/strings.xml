@@ -1,0 +1,186 @@
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+ 
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+
+    <!-- Info  -->
+    <string name="alert_welcomeDialog_title">"Привіт"</string>
+    <string name="alert_welcomeDialog_Message">"Ця програма дозволяє знімати дистанційно, використовуючи один з таких методів: \n \n - свист. "</string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">"Не вдається підключитися до камері"</string>
+    <string name="alert_error_micFailed">"Неможливо активувати мікрофон"</string>
+    <string name="alert_error_photoSaveFailed">"Не вдалося зберегти картинку"</string>
+
+
+    <!-- Warning  -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">"Про функція"</string>
+    <string name="pro_proFeatureDialog_cancelBtn">"скасувати"</string>
+    <string name="pro_proFeatureDialog_okBtn">"Купити"</string>
+    <string name="pro_proFeatureDialog_clappingMessage">"Mode 'руки плескали \"доступна тільки в Pro версії"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">"Налаштування"</string>
+
+    <!-- General  -->
+    <string name="pref_headerTitle_general">"Генеральна"</string>
+    <string name="pref_language_title">"Мова"</string>
+
+
+    <!-- Main settings  -->
+    <string name="pref_headerTitle_mainCameraSettings">"Основні налаштування камери"</string>
+    <string name="pref_catTitle_general">"Генеральна"</string>
+    <string name="pref_enableShutterSound_title">"Увімкнути звук затвора"</string>
+    <string name="pref_pictureSize_title">"Розмір малюнка"</string>
+    <string name="pref_focusMode_title">"Режим фокусування"</string>
+    <string name="pref_focusMode_disabled">"дезактивований"</string>
+    <string name="pref_focusMode_auto">"Автоматичний"</string>
+    <string name="pref_focusMode_continuous">"Безперервний"</string>
+    <string name="pref_focusMode_infinity">"Нескінченність"</string>
+    <string name="pref_focusMode_macro">"Макрос"</string>
+    <string name="pref_focusMode_fixed">"Фіксований"</string>
+    <string name="pref_sceneMode_title">"Сюжетний режим"</string>
+    <string name="pref_sceneMode__auto">"Автоматичний"</string>
+    <string name="pref_sceneMode__action">"Дія"</string>
+    <string name="pref_sceneMode__barcode">"Штрих"</string>
+    <string name="pref_sceneMode__beach">"Пляж"</string>
+    <string name="pref_sceneMode__candlelight">"Свічки"</string>
+    <string name="pref_sceneMode__fireworks">"Феєрверк"</string>
+    <string name="pref_sceneMode__hdr">"HDR"</string>
+    <string name="pref_sceneMode__landscape">"Пейзаж"</string>
+    <string name="pref_sceneMode__night">"Ніч"</string>
+    <string name="pref_sceneMode__party">"Партія"</string>
+    <string name="pref_sceneMode__portrait">"Портрет"</string>
+    <string name="pref_sceneMode__snow">"Сніг"</string>
+    <string name="pref_sceneMode__sports">"Спортивний"</string>
+    <string name="pref_sceneMode__steadyphoto">"Стійкий фото"</string>
+    <string name="pref_sceneMode__sunset">"Захід"</string>
+    <string name="pref_sceneMode__theatre">"Театр"</string>
+
+
+
+    <!-- advanced  settings -->
+    <string name="pref_headerTitle_advancedCameraSettings">"Розширені налаштування камери"</string>
+    <string name="pref_previewSize_title">"Розмір перегляду"</string>
+ 
+    <string name="pref_enableScreenFlash_title">"Використовуйте екран в якості світла спалаху"</string>
+    <string name="pref_enableScreenFlash_Description">"Якщо передня камера не має спалаху світла, екран буде білим"</string>
+    <string name="pref_enableTouchToFocus_title">"Включити \"доторкнутися до зосередитися\""</string>
+    <string name="pref_enableLocationRecording_title">"Зберегти місце"</string>
+
+
+
+    <!-- remote  -->
+    <string name="pref_headerTitle_remoteControl">"Дистанційне керування"</string>
+    <string name="pref_catTitle_remoteControl">"Дистанційне керування"</string>
+    <string name="pref_remoteMode_title">"Pежим контролю"</string>
+    <string name="pref_remoteMode_disabled">"дезактивований"</string>
+    <string name="pref_remoteMode_whistle">"Свисток"</string>
+    <string name="pref_remoteMode_clapping">"Руки ляскаючи"</string>
+    <string name="pref_remoteModeDelay_title">"Затримка перед приймаючи фото"</string>
+    <string name="pref_remoteModeDelay_formattedValue">"%1$d секунд"</string>
+    <string name="pref_whistleSensitivity_title">"Звук Чутливість"</string>
+    <string name="pref_catTitle_whistlingControl">"Свисток"</string>
+
+
+
+    <!-- Activators  -->
+    <string name="pref_headerTitle_activators">"Активатори"</string>
+    <string name="pref_catTitle_activators">"Активатори"</string>
+    <string name="pref_volumeButtonsActivator_title">"Кнопки регулювання гучності"</string>
+    <string name="pref_activator__disabled">"дезактивований"</string>
+    <string name="pref_activator__shutter">"Затвор"</string>
+    <string name="pref_activator__zoom">"Збільшити"</string>
+    <string name="pref_catTitle_advancedCamSettings">"Розширені налаштування камери"</string>
+
+
+    <!-- UI  -->
+    <string name="pref_headerTitle_ui">"Інтерфейс"</string>
+    <string name="pref_showZoomUi_title">"Показати зуммирования"</string>
+    <string name="pref_showZoomUi_summary">"Ви можете налаштувати зум за допомогою вертикальних пійло"</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">"Галерея порожня"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">"Про нас"</string>
+    <string name="about_legalNotices_btn">"Юридичні сповіщення"</string>
+    <string name="about_legalNotices_windowTitle">"Юридичні сповіщення"</string>
+    <string name="about_developedBy">"Розроблено Ouadban Юсеф"</string>
+    <string name="about_sendUsEmail_btn">"Відправити нам лист"</string>
+    <string name="about_upgrade_btn">"Оновлення до версії Pro"</string>
+    <string name="about_contributions_btn">"Внески"</string>
+    <string name="about_contributions_windowTitle">"Внески"</string>
+    <string name="about_otherApps_btn">"Додатки"</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">"Оцінити додаток"</string>
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+ 
+    <string name="devApps_tiltScroll_description">"
+        Ця програма дозволяє прокручувати екран просто нахиляючи пристрій, і працює з усіма іншими додатками
+    "</string>
+
+
+
+
+
+
+</resources>

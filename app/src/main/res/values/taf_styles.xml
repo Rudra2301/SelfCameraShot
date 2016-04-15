@@ -1,0 +1,31 @@
+<resources>
+
+
+
+
+
+
+
+
+
+
+
+    <!--  Preferences -->
+    <!--  ================================== -->
+
+    <style name="PreferenceTitleStyle">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+
+    </style>
+
+
+    <style name="PreferenceSummaryStyle">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+
+
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="TqmUpwardPopupAnimation" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/tqm_upward_popup_show</item>
+        <item name="@android:windowExitAnimation">@anim/tqm_upward_popup_hide</item>
+    </style>
+
+    <style name="TqmDownwardPopupAnimation" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/tqm_downward_popup_show</item>
+        <item name="@android:windowExitAnimation">@anim/tqm_downward_popup_hide</item>
+    </style>
+
+    <style name="TqmLeftwardPopupAnimation" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/tqm_leftward_popup_show</item>
+        <item name="@android:windowExitAnimation">@anim/tqm_leftward_popup_hide</item>
+    </style>
+
+    <style name="TqmRightwardPopupAnimation" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/tqm_rightward_popup_show</item>
+        <item name="@android:windowExitAnimation">@anim/tqm_rightward_popup_hide</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <shape>
+            <!-- radius background of progressbar -->
+            <corners android:radius="@dimen/camera_zoom_progressRadius" />
+
+            <gradient android:type="linear"
+                android:angle="270"
+                android:startColor="@color/camera_zoom_progressBcStartColor"
+                android:endColor="@color/camera_zoom_progressBcEndColor"
+                />
+
+        </shape>
+    </item>
+
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="@dimen/camera_zoom_progressRadius" />
+                <gradient android:type="linear"
+                    android:angle="270"
+                    android:startColor="@color/camera_zoom_progressFcStartColor"
+                    android:endColor="@color/camera_zoom_progressFcEndColor"
+                    />
+            </shape>
+        </clip>
+    </item>
+    <item
+        android:id="@android:id/progress"
+        >
+        <clip>
+            <shape>
+                <!-- radius of secundary progress -->
+                <corners
+                    android:radius="@dimen/camera_zoom_progressRadius" />
+                <gradient android:type="linear"
+                    android:angle="270"
+                    android:startColor="@color/camera_zoom_progressFcStartColor"
+                    android:endColor="@color/camera_zoom_progressFcEndColor"
+                    />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

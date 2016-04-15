@@ -1,0 +1,194 @@
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+ 
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+
+    <!-- Info  -->
+    <string name="alert_welcomeDialog_title">"안녕"</string>
+    <string name="alert_welcomeDialog_Message">
+        이 응용 프로그램은 원격으로 다음 방법 중 하나를 사용하여 사진을 촬영할 수 있습니다 :
+     \n\n
+     - 휘파람.
+     \n
+     - 손 박수.
+    </string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">"카메라에 연결할 수 없습니다"</string>
+    <string name="alert_error_micFailed">"마이크를 활성화 할 수 없습니다"</string>
+    <string name="alert_error_photoSaveFailed">"사진을 저장하지 못했습니다"</string>
+
+
+    <!-- Warning  -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">"프로 기능"</string>
+    <string name="pro_proFeatureDialog_cancelBtn">"취소"</string>
+    <string name="pro_proFeatureDialog_okBtn">"사기"</string>
+    <string name="pro_proFeatureDialog_clappingMessage">"모드 '손 박수'는 프로 버전에서 사용할 수 있습니다"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">"설정"</string>
+
+    <!-- General  -->
+    <string name="pref_headerTitle_general">"일반"</string>
+    <string name="pref_language_title">"언어"</string>
+
+
+    <!-- Main settings  -->
+    <string name="pref_headerTitle_mainCameraSettings">"기본 카메라 설정"</string>
+    <string name="pref_catTitle_general">"일반"</string>
+    <string name="pref_enableShutterSound_title">"셔터 음 사용"</string>
+    <string name="pref_pictureSize_title">"사진 크기"</string>
+    <string name="pref_focusMode_title">"초점 모드"</string>
+    <string name="pref_focusMode_disabled">"비활성화"</string>
+    <string name="pref_focusMode_auto">"자동"</string>
+    <string name="pref_focusMode_continuous">"끊임없는"</string>
+    <string name="pref_focusMode_infinity">"무한대"</string>
+    <string name="pref_focusMode_macro">"매크로"</string>
+    <string name="pref_focusMode_fixed">"고정 된"</string>
+    <string name="pref_sceneMode_title">"장면 모드"</string>
+    <string name="pref_sceneMode__auto">"자동"</string>
+    <string name="pref_sceneMode__action">"행동"</string>
+    <string name="pref_sceneMode__barcode">"바코드"</string>
+    <string name="pref_sceneMode__beach">"바닷가"</string>
+    <string name="pref_sceneMode__candlelight">"캔들 라이트"</string>
+    <string name="pref_sceneMode__fireworks">"불꽃"</string>
+    <string name="pref_sceneMode__hdr">"HDR"</string>
+    <string name="pref_sceneMode__landscape">"경치"</string>
+    <string name="pref_sceneMode__night">"밤"</string>
+    <string name="pref_sceneMode__party">"파티"</string>
+    <string name="pref_sceneMode__portrait">"초상화"</string>
+    <string name="pref_sceneMode__snow">"눈"</string>
+    <string name="pref_sceneMode__sports">"스포츠의"</string>
+    <string name="pref_sceneMode__steadyphoto">"정상 사진"</string>
+    <string name="pref_sceneMode__sunset">"일몰"</string>
+    <string name="pref_sceneMode__theatre">"극장"</string>
+
+
+
+    <!-- advanced  settings -->
+    <string name="pref_headerTitle_advancedCameraSettings">"고급 카메라 설정"</string>
+    <string name="pref_previewSize_title">"미리보기 크기"</string>
+ 
+    <string name="pref_enableScreenFlash_title">"플래시의 빛으로 화면을 사용하여"</string>
+    <string name="pref_enableScreenFlash_Description">"전방 카메라는 플래시 광이없는 경우, 화면이 하얗게 것"</string>
+    <string name="pref_enableTouchToFocus_title">"\"초점을 터치\"사용"</string>
+    <string name="pref_enableLocationRecording_title">"저장 위치"</string>
+
+
+
+    <!-- remote  -->
+    <string name="pref_headerTitle_remoteControl">"원격 제어"</string>
+    <string name="pref_catTitle_remoteControl">"원격 제어"</string>
+    <string name="pref_remoteMode_title">"제어 모드"</string>
+    <string name="pref_remoteMode_disabled">"비활성화"</string>
+    <string name="pref_remoteMode_whistle">"휘파람"</string>
+    <string name="pref_remoteMode_clapping">"손 박수"</string>
+    <string name="pref_remoteModeDelay_title">"사진을 촬영하기 전에 지연"</string>
+    <string name="pref_remoteModeDelay_formattedValue">"%1$d 초"</string>
+    <string name="pref_whistleSensitivity_title">휘파람의 민감도</string>
+    <string name="pref_catTitle_whistlingControl">"휘파람"</string>
+    <string name="pref_clappingSensitivity_title">박수의 민감도</string>
+
+
+
+    <!-- Activators  -->
+    <string name="pref_headerTitle_activators">"활성제"</string>
+    <string name="pref_catTitle_activators">"활성제"</string>
+    <string name="pref_volumeButtonsActivator_title">"볼륨 버튼"</string>
+    <string name="pref_activator__disabled">"비활성화"</string>
+    <string name="pref_activator__shutter">"셔터"</string>
+    <string name="pref_activator__zoom">"줌"</string>
+    <string name="pref_catTitle_advancedCamSettings">"고급 카메라 설정"</string>
+
+
+    <!-- UI  -->
+    <string name="pref_headerTitle_ui">"사용자 인터페이스"</string>
+    <string name="pref_showZoomUi_title">"줌 제어보기"</string>
+    <string name="pref_showZoomUi_summary">"당신은 수직 스 와이프를 사용하여 줌을 조정할 수 있습니다"</string>
+    <string name="pref_enableFullscreen_title">전체 화면</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">"갤러리가 비어 있습니다"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">"회사 소개"</string>
+    <string name="about_legalNotices_btn">"법적 고지"</string>
+    <string name="about_legalNotices_windowTitle">"법적 고지"</string>
+    <string name="about_developedBy">"Ouadban 세프에 의해 개발"</string>
+    <string name="about_sendUsEmail_btn">"저희에게 이메일 보내기"</string>
+    <string name="about_upgrade_btn">"프로 버전으로 업그레이드"</string>
+    <string name="about_contributions_btn">"기부"</string>
+    <string name="about_contributions_windowTitle">"기부"</string>
+    <string name="about_otherApps_btn">"앱"</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">"응용 프로그램을 평가"</string>
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+ 
+    <string name="devApps_tiltScroll_description">"이 응용 프로그램은 당신이 당신의 장치를 기울여 화면을 스크롤 할 수 있습니다, 다른 모든 응용 프로그램과 함께 작동"</string>
+
+
+    <string name="devApps_rapidos_description">
+        "Rapidos 신속, 응용 프로그램을 시작하는 전화 통화를하거나, 화면에 손가락으로 제스처를 그림으로써, 다른 작업을 시작할 수 있습니다."
+    </string>
+
+
+
+
+</resources>

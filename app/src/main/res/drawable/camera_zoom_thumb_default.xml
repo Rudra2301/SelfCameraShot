@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item>
+
+            <shape  android:shape="oval" >
+
+                <!--solid android:color="@color/camera_zoom_thumbColor" /-->
+                <solid  android:color="@color/camera_btn_shadow"/>
+
+                <size
+                    android:height="@dimen/camera_zoom_thumbSize"
+                    android:width="@dimen/camera_zoom_thumbSize" />
+
+            </shape>
+        </item>
+
+    <item>
+        <shape  android:shape="oval"   >
+            <!--solid android:color="@color/camera_zoom_thumbColor" /-->
+            <gradient android:type="linear"
+                android:angle="270"
+                android:startColor="@color/camera_zoom_thumbStartColor"
+                android:endColor="@color/camera_zoom_thumbEndColor"
+                />
+
+
+            <padding android:left="@dimen/camera_zoom_shadowPadding"
+                android:top="@dimen/camera_zoom_shadowPadding"
+                android:right="@dimen/camera_zoom_shadowPadding"
+                android:bottom="@dimen/camera_zoom_shadowPadding" />
+        </shape>
+
+
+    </item>
+
+
+</layer-list>

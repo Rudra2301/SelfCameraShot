@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+
+        <CheckBoxPreference
+            android:key="prefEnableShutterSound"
+            android:title="@string/pref_enableShutterSound_title"
+
+            />
+
+
+        <ListPreference
+            android:key="prefPictureSize"
+            android:entries="@array/prefLanguageLabels"
+            android:entryValues="@array/prefLanguageValues"
+            android:title="@string/pref_pictureSize_title"
+             />
+
+
+
+
+
+    <ListPreference
+        android:key="prefFocusMode"
+        android:entries="@array/prefFocusModeLabels"
+        android:entryValues="@array/prefFocusModeValues"
+        android:title="@string/pref_focusMode_title"
+        />
+
+
+
+
+    <ListPreference
+        android:key="prefSceneMode"
+        android:entries="@array/prefSceneModeLabels"
+        android:entryValues="@array/prefSceneModeValues"
+        android:title="@string/pref_sceneMode_title"
+        />
+
+
+
+
+
+
+
+
+
+
+
+</PreferenceScreen>

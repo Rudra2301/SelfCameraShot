@@ -1,0 +1,186 @@
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+ 
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+
+    <!-- Info  -->
+    <string name="alert_welcomeDialog_title">"Ahoj"</string>
+    <string name="alert_welcomeDialog_Message">"Tato aplikace vám umožňuje pořizovat snímky vzdáleně pomocí jedné z následujících metod: \n \n  - pískání. \n "</string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">"Nelze se připojit ke kameře"</string>
+    <string name="alert_error_micFailed">"Nelze aktivovat mikrofon"</string>
+    <string name="alert_error_photoSaveFailed">"Nepodařilo se uložit obrázek"</string>
+
+
+    <!-- Warning  -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">"Pro funkce"</string>
+    <string name="pro_proFeatureDialog_cancelBtn">"zrušit"</string>
+    <string name="pro_proFeatureDialog_okBtn">"Koupit"</string>
+    <string name="pro_proFeatureDialog_clappingMessage">"Mode \"hands tleskání\" je k dispozici pouze ve verzi Pro"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">"Nastavení"</string>
+
+    <!-- General  -->
+    <string name="pref_headerTitle_general">"Obecný"</string>
+    <string name="pref_language_title">"Jazyk"</string>
+
+
+    <!-- Main settings  -->
+    <string name="pref_headerTitle_mainCameraSettings">"Hlavní nastavení fotoaparátu"</string>
+    <string name="pref_catTitle_general">"Obecný"</string>
+    <string name="pref_enableShutterSound_title">"Povolit zvuk závěrky"</string>
+    <string name="pref_pictureSize_title">"Velikost obrazu"</string>
+    <string name="pref_focusMode_title">"Režim ostření"</string>
+    <string name="pref_focusMode_disabled">"Deaktivováno"</string>
+    <string name="pref_focusMode_auto">"Auto"</string>
+    <string name="pref_focusMode_continuous">"Nepřetržitý"</string>
+    <string name="pref_focusMode_infinity">"Nekonečno"</string>
+    <string name="pref_focusMode_macro">"Makro"</string>
+    <string name="pref_focusMode_fixed">"Fixní"</string>
+    <string name="pref_sceneMode_title">"Režim scény"</string>
+    <string name="pref_sceneMode__auto">"Auto"</string>
+    <string name="pref_sceneMode__action">"Akce"</string>
+    <string name="pref_sceneMode__barcode">"Barcode"</string>
+    <string name="pref_sceneMode__beach">"Pláž"</string>
+    <string name="pref_sceneMode__candlelight">"Svíčkách"</string>
+    <string name="pref_sceneMode__fireworks">"Ohňostroj"</string>
+    <string name="pref_sceneMode__hdr">"HDR"</string>
+    <string name="pref_sceneMode__landscape">"Krajina"</string>
+    <string name="pref_sceneMode__night">"Noc"</string>
+    <string name="pref_sceneMode__party">"Strana"</string>
+    <string name="pref_sceneMode__portrait">"Portrét"</string>
+    <string name="pref_sceneMode__snow">"Sníh"</string>
+    <string name="pref_sceneMode__sports">"Sportovní"</string>
+    <string name="pref_sceneMode__steadyphoto">"Steady photo"</string>
+    <string name="pref_sceneMode__sunset">"Západ slunce"</string>
+    <string name="pref_sceneMode__theatre">"Divadlo"</string>
+
+
+
+    <!-- advanced  settings -->
+    <string name="pref_headerTitle_advancedCameraSettings">"Pokročilé nastavení fotoaparátu"</string>
+    <string name="pref_previewSize_title">"Velikost náhledu"</string>
+ 
+    <string name="pref_enableScreenFlash_title">"Použijte displej jako blesk světla"</string>
+    <string name="pref_enableScreenFlash_Description">"Pokud přední fotoaparát nemá flash světlo, bude obrazovka bíle"</string>
+    <string name="pref_enableTouchToFocus_title">"Povolit \"dotknout se zaměřit\""</string>
+    <string name="pref_enableLocationRecording_title">"Poloha Save"</string>
+
+
+
+    <!-- remote  -->
+    <string name="pref_headerTitle_remoteControl">"Dálkové ovládání"</string>
+    <string name="pref_catTitle_remoteControl">"Dálkové ovládání"</string>
+    <string name="pref_remoteMode_title">"Regulační režim"</string>
+    <string name="pref_remoteMode_disabled">"Deaktivováno"</string>
+    <string name="pref_remoteMode_whistle">"Píšťala"</string>
+    <string name="pref_remoteMode_clapping">"Ruce tleskání"</string>
+    <string name="pref_remoteModeDelay_title">"Zpoždění před pořízením fotografie"</string>
+    <string name="pref_remoteModeDelay_formattedValue">"%1$d sekund"</string>
+    <string name="pref_whistleSensitivity_title">"Zvuk Citlivost"</string>
+    <string name="pref_catTitle_whistlingControl">"Píšťala"</string>
+
+
+
+    <!-- Activators  -->
+    <string name="pref_headerTitle_activators">"Aktivátory"</string>
+    <string name="pref_catTitle_activators">"Aktivátory"</string>
+    <string name="pref_volumeButtonsActivator_title">"Tlačítka hlasitosti"</string>
+    <string name="pref_activator__disabled">"Deaktivováno"</string>
+    <string name="pref_activator__shutter">"Uzávěrka"</string>
+    <string name="pref_activator__zoom">"Přiblížit"</string>
+    <string name="pref_catTitle_advancedCamSettings">"Pokročilé nastavení fotoaparátu"</string>
+
+
+    <!-- UI  -->
+    <string name="pref_headerTitle_ui">"Uživatelské rozhraní"</string>
+    <string name="pref_showZoomUi_title">"Zobrazit ovládání zoomu"</string>
+    <string name="pref_showZoomUi_summary">"Můžete nastavit zoom pomocí vertikální ohání"</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">"Galerie je prázdná"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">"O nás"</string>
+    <string name="about_legalNotices_btn">"Právní upozornění"</string>
+    <string name="about_legalNotices_windowTitle">"Právní upozornění"</string>
+    <string name="about_developedBy">"Vyvinutý Ouadban Youssef"</string>
+    <string name="about_sendUsEmail_btn">"Pošlete nám e-mail"</string>
+    <string name="about_upgrade_btn">"Upgrade na verzi Pro"</string>
+    <string name="about_contributions_btn">"Příspěvky"</string>
+    <string name="about_contributions_windowTitle">"Příspěvky"</string>
+    <string name="about_otherApps_btn">"Aplikace"</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">"Ohodnoťte aplikaci"</string>
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+ 
+    <string name="devApps_tiltScroll_description">"
+        Tato aplikace umožňuje procházet obrazovku pouhým nakloněním přístroje, a pracuje se všemi ostatními aplikacemi
+    "</string>
+
+
+
+
+
+
+</resources>

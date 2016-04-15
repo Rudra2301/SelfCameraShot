@@ -1,0 +1,186 @@
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+ 
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+
+    <!-- Info  -->
+    <string name="alert_welcomeDialog_title">"سلام"</string>
+    <string name="alert_welcomeDialog_Message">"این برنامه اجازه می دهد تا شما را به گرفتن عکس از راه دور با استفاده از یکی از روش های زیر: \n \n  در - سوت."</string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">"نمی توانید به دوربین متصل"</string>
+    <string name="alert_error_micFailed">"قادر به فعال کردن میکروفون"</string>
+    <string name="alert_error_photoSaveFailed">"برای صرفه جویی در تصویر شکست خورده"</string>
+
+
+    <!-- Warning  -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">"نرم افزار از ویژگی های"</string>
+    <string name="pro_proFeatureDialog_cancelBtn">"لغو کردن"</string>
+    <string name="pro_proFeatureDialog_okBtn">"خرید"</string>
+    <string name="pro_proFeatureDialog_clappingMessage">"حالت 'دست کف زدن \"تنها در نسخه حرفه ای در دسترس است"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">"تنظیمات"</string>
+
+    <!-- General  -->
+    <string name="pref_headerTitle_general">"عمومی"</string>
+    <string name="pref_language_title">"زبان"</string>
+
+
+    <!-- Main settings  -->
+    <string name="pref_headerTitle_mainCameraSettings">"تنظیمات دوربین اصلی"</string>
+    <string name="pref_catTitle_general">"عمومی"</string>
+    <string name="pref_enableShutterSound_title">"فعال کردن صدا شاتر"</string>
+    <string name="pref_pictureSize_title">"اندازه عکس"</string>
+    <string name="pref_focusMode_title">"حالت فوکوس"</string>
+    <string name="pref_focusMode_disabled">"غیر فعال"</string>
+    <string name="pref_focusMode_auto">"خودرو"</string>
+    <string name="pref_focusMode_continuous">"مداوم"</string>
+    <string name="pref_focusMode_infinity">"ابدیت"</string>
+    <string name="pref_focusMode_macro">"ماکرو"</string>
+    <string name="pref_focusMode_fixed">"ثابت"</string>
+    <string name="pref_sceneMode_title">"حالت های صحنه"</string>
+    <string name="pref_sceneMode__auto">"خودرو"</string>
+    <string name="pref_sceneMode__action">"اقدام"</string>
+    <string name="pref_sceneMode__barcode">"بارکد"</string>
+    <string name="pref_sceneMode__beach">"ساحل"</string>
+    <string name="pref_sceneMode__candlelight">"نور شمع"</string>
+    <string name="pref_sceneMode__fireworks">"آتش بازی"</string>
+    <string name="pref_sceneMode__hdr">"HDR"</string>
+    <string name="pref_sceneMode__landscape">"چشم انداز"</string>
+    <string name="pref_sceneMode__night">"شب"</string>
+    <string name="pref_sceneMode__party">"حزب"</string>
+    <string name="pref_sceneMode__portrait">"تصویر"</string>
+    <string name="pref_sceneMode__snow">"برف"</string>
+    <string name="pref_sceneMode__sports">"ورزشی"</string>
+    <string name="pref_sceneMode__steadyphoto">"عکس ثابت"</string>
+    <string name="pref_sceneMode__sunset">"غروب"</string>
+    <string name="pref_sceneMode__theatre">"تئاتر"</string>
+
+
+
+    <!-- advanced  settings -->
+    <string name="pref_headerTitle_advancedCameraSettings">"تنظیمات دوربین و جوی پیشرفته"</string>
+    <string name="pref_previewSize_title">"پیشنمایش حجم"</string>
+ 
+    <string name="pref_enableScreenFlash_title">"استفاده از صفحه نمایش به عنوان نور فلاش را"</string>
+    <string name="pref_enableScreenFlash_Description">"اگر جلوی دوربین یک نور فالش را نداشته باشند، صفحه سفید خواهد شد"</string>
+    <string name="pref_enableTouchToFocus_title">"فعال کردن \"را لمس به تمرکز\""</string>
+    <string name="pref_enableLocationRecording_title">"ذخیره مکان"</string>
+
+
+
+    <!-- remote  -->
+    <string name="pref_headerTitle_remoteControl">"کنترل از راه دور"</string>
+    <string name="pref_catTitle_remoteControl">"کنترل از راه دور"</string>
+    <string name="pref_remoteMode_title">"باب کنترل"</string>
+    <string name="pref_remoteMode_disabled">"غیر فعال"</string>
+    <string name="pref_remoteMode_whistle">"سوت"</string>
+    <string name="pref_remoteMode_clapping">"دست کف زدن"</string>
+    <string name="pref_remoteModeDelay_title">"تاخیر قبل از مصرف عکس"</string>
+    <string name="pref_remoteModeDelay_formattedValue">"%1$d ثانیه"</string>
+    <string name="pref_whistleSensitivity_title">"حساسیت صدا"</string>
+    <string name="pref_catTitle_whistlingControl">"سوت"</string>
+
+
+
+    <!-- Activators  -->
+    <string name="pref_headerTitle_activators">"فعال"</string>
+    <string name="pref_catTitle_activators">"فعال"</string>
+    <string name="pref_volumeButtonsActivator_title">"دکمه های حجم"</string>
+    <string name="pref_activator__disabled">"غیر فعال"</string>
+    <string name="pref_activator__shutter">"دیافراگم"</string>
+    <string name="pref_activator__zoom">"زوم"</string>
+    <string name="pref_catTitle_advancedCamSettings">"تنظیمات دوربین و جوی پیشرفته"</string>
+
+
+    <!-- UI  -->
+    <string name="pref_headerTitle_ui">"رابط کاربری"</string>
+    <string name="pref_showZoomUi_title">"نمایش کنترل زوم"</string>
+    <string name="pref_showZoomUi_summary">"شما می توانید از زوم با استفاده از ابجو بد و کم مایه عمودی تنظیم"</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">"گالری خالی است"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">"دربارهی ما"</string>
+    <string name="about_legalNotices_btn">"اعلامیه های حقوقی"</string>
+    <string name="about_legalNotices_windowTitle">"اعلامیه های حقوقی"</string>
+    <string name="about_developedBy">"طراحی و توسعه توسط Ouadban یوسف"</string>
+    <string name="about_sendUsEmail_btn">"برای ما ایمیل بفرستید"</string>
+    <string name="about_upgrade_btn">"ارتقا به نسخه حرفه ای"</string>
+    <string name="about_contributions_btn">"مشارکت"</string>
+    <string name="about_contributions_windowTitle">"مشارکت"</string>
+    <string name="about_otherApps_btn">"نرم افزار"</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">"امتیاز به برنامه"</string>
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+ 
+    <string name="devApps_tiltScroll_description">"
+        این برنامه اجازه می دهد تا شما را به حرکت روی صفحه نمایش خود را فقط با کج دستگاه خود، و با تمام برنامه های کاربردی دیگر کار می کند
+    "</string>
+
+
+
+
+
+
+</resources>

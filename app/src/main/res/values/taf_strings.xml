@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--     Dev apps        -->
+    <string name="devApps_dialog_title" >Other apps</string>
+    <string name="devApps_dialog_install" >Install</string>
+
+
+
+    <!--     Accessibility        -->
+    <string name="taf_accessibility_enableServiceHere">Enable the accessibility service of %1$s here</string>
+    <string name="taf_accessibility_disableServiceHere">Disable the accessibility service of %1$s here</string>
+
+
+
+    <!--     Chooser       -->
+    <string name="chooser_email_title">Send email ...</string>
+
+
+
+    <!-- Button captions  -->
+    <string name="verb_close">Close</string>
+
+
+
+
+    <!-- taf default dialog  -->
+    <string name="tafDefaultDialog_ok">Ok</string>
+    <string name="tafDefaultDialog_close">Close</string>
+    <string name="tafDefaultDialog_yes">Yes</string>
+    <string name="tafDefaultDialog_no">No</string>
+    <string name="tafDefaultDialog_cancel">Cancel</string>
+
+
+    <!-- Pro  -->
+    <string name="pro_proFeatureDialogTitle">Premium Feature</string>
+    <string name="pro_proFeatureDialogMsg">To use this feature, you need to purchase the Pro version</string>
+    <string name="pro_upgrade">Buy now</string>
+    <string name="pro_upgradeMessage">Thank you for upgrading to Pro version</string>
+    <string name="pro_upgradeAgainMessage">You have already bought this product.
+        \n
+        The Pro version is now  unlocked .</string>
+    <string name="pro_appstoreNeededMessage">\'Google Play Store\' app and internet connection, are required in order to make purchase</string>
+
+
+
+    <!-- Common  -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+</resources>

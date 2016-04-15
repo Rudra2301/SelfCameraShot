@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/taf_prefslider_padding"
+
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCurrentValue"
+        android:layout_centerInParent="true"
+
+        android:textSize="@dimen/taf_prefslider_value_text_size" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_below="@+id/tvCurrentValue"
+        android:paddingTop="@dimen/taf_prefslider_bar_tpadding"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tvMinValue"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+          />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tvMaxValue"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+          />
+
+
+</RelativeLayout>

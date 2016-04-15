@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="tafDefaultDialog_positiveButton" />
+    <item type="id" name="tafDefaultDialog_negativeButton" />
+    <item type="id" name="tafDefaultDialog_neutralButton" />
+</resources>

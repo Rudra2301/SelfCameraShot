@@ -1,0 +1,186 @@
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+ 
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+
+    <!-- Info  -->
+    <string name="alert_welcomeDialog_title">"Hej"</string>
+    <string name="alert_welcomeDialog_Message">"Denna app gör att du kan ta bilder på distans med hjälp av någon av följande metoder: \n \n  - visslande."</string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">"Kan inte ansluta till kameran"</string>
+    <string name="alert_error_micFailed">"Det går inte att aktivera mikrofonen"</string>
+    <string name="alert_error_photoSaveFailed">"Det gick inte att spara bilden"</string>
+
+
+    <!-- Warning  -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">"Pro särdrag"</string>
+    <string name="pro_proFeatureDialog_cancelBtn">"avboka"</string>
+    <string name="pro_proFeatureDialog_okBtn">"Köpa"</string>
+    <string name="pro_proFeatureDialog_clappingMessage">"Mode 'händer klappar \"är endast tillgängligt i Pro-versionen"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">"Inställningar"</string>
+
+    <!-- General  -->
+    <string name="pref_headerTitle_general">"Allmänt"</string>
+    <string name="pref_language_title">"Språk"</string>
+
+
+    <!-- Main settings  -->
+    <string name="pref_headerTitle_mainCameraSettings">"Huvudkamerainställningar"</string>
+    <string name="pref_catTitle_general">"Allmänt"</string>
+    <string name="pref_enableShutterSound_title">"Aktivera slutarljud"</string>
+    <string name="pref_pictureSize_title">"Bildstorlek"</string>
+    <string name="pref_focusMode_title">"Fokusläge"</string>
+    <string name="pref_focusMode_disabled">"Inaktiverad"</string>
+    <string name="pref_focusMode_auto">"Auto"</string>
+    <string name="pref_focusMode_continuous">"Kontinuerlig"</string>
+    <string name="pref_focusMode_infinity">"Infinity"</string>
+    <string name="pref_focusMode_macro">"Makro"</string>
+    <string name="pref_focusMode_fixed">"Fast"</string>
+    <string name="pref_sceneMode_title">"Scenläge"</string>
+    <string name="pref_sceneMode__auto">"Auto"</string>
+    <string name="pref_sceneMode__action">"Åtgärd"</string>
+    <string name="pref_sceneMode__barcode">"Barcode"</string>
+    <string name="pref_sceneMode__beach">"Stranden"</string>
+    <string name="pref_sceneMode__candlelight">"Levande ljus"</string>
+    <string name="pref_sceneMode__fireworks">"Fyrverkerier"</string>
+    <string name="pref_sceneMode__hdr">"HDR"</string>
+    <string name="pref_sceneMode__landscape">"Landskap"</string>
+    <string name="pref_sceneMode__night">"Natt"</string>
+    <string name="pref_sceneMode__party">"Fest"</string>
+    <string name="pref_sceneMode__portrait">"Porträtt"</string>
+    <string name="pref_sceneMode__snow">"Snö"</string>
+    <string name="pref_sceneMode__sports">"Sport"</string>
+    <string name="pref_sceneMode__steadyphoto">"Stadig bild"</string>
+    <string name="pref_sceneMode__sunset">"Sunset"</string>
+    <string name="pref_sceneMode__theatre">"Teater"</string>
+
+
+
+    <!-- advanced  settings -->
+    <string name="pref_headerTitle_advancedCameraSettings">"Avancerade kamerainställningar"</string>
+    <string name="pref_previewSize_title">"Förhands Storlek"</string>
+ 
+    <string name="pref_enableScreenFlash_title">"Använd skärmen som en blixt ljus"</string>
+    <string name="pref_enableScreenFlash_Description">"Om den främre kameran inte har en ficklampa, blir skärmen vit"</string>
+    <string name="pref_enableTouchToFocus_title">"Aktivera \"touch att fokusera\""</string>
+    <string name="pref_enableLocationRecording_title">"Spara plats"</string>
+
+
+
+    <!-- remote  -->
+    <string name="pref_headerTitle_remoteControl">"Fjärrkontroll"</string>
+    <string name="pref_catTitle_remoteControl">"Fjärrkontroll"</string>
+    <string name="pref_remoteMode_title">"Kontrollläge"</string>
+    <string name="pref_remoteMode_disabled">"Inaktiverad"</string>
+    <string name="pref_remoteMode_whistle">"Whistle"</string>
+    <string name="pref_remoteMode_clapping">"Händer klappar"</string>
+    <string name="pref_remoteModeDelay_title">"Fördröjning innan du tar foto"</string>
+    <string name="pref_remoteModeDelay_formattedValue">"%1$d sekunder"</string>
+    <string name="pref_whistleSensitivity_title">"Ljudkänslighet"</string>
+    <string name="pref_catTitle_whistlingControl">"Whistle"</string>
+
+
+
+    <!-- Activators  -->
+    <string name="pref_headerTitle_activators">"Aktivatorer"</string>
+    <string name="pref_catTitle_activators">"Aktivatorer"</string>
+    <string name="pref_volumeButtonsActivator_title">"Volymknappar"</string>
+    <string name="pref_activator__disabled">"Inaktiverad"</string>
+    <string name="pref_activator__shutter">"Shutter"</string>
+    <string name="pref_activator__zoom">"Zoom"</string>
+    <string name="pref_catTitle_advancedCamSettings">"Avancerade kamerainställningar"</string>
+
+
+    <!-- UI  -->
+    <string name="pref_headerTitle_ui">"Användargränssnitt"</string>
+    <string name="pref_showZoomUi_title">"Visa zoomreglaget"</string>
+    <string name="pref_showZoomUi_summary">"Du kan justera zoomen med vertikala nallar"</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">"Galleriet är tom"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">"Om oss"</string>
+    <string name="about_legalNotices_btn">"Juridiska meddelanden"</string>
+    <string name="about_legalNotices_windowTitle">"Juridiska meddelanden"</string>
+    <string name="about_developedBy">"Utvecklad av Ouadban Youssef"</string>
+    <string name="about_sendUsEmail_btn">"Skicka oss ett mail"</string>
+    <string name="about_upgrade_btn">"Uppgradera till Pro-versionen"</string>
+    <string name="about_contributions_btn">"Bidrag"</string>
+    <string name="about_contributions_windowTitle">"Bidrag"</string>
+    <string name="about_otherApps_btn">"Appar"</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">"Betygsätt appen"</string>
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+ 
+    <string name="devApps_tiltScroll_description">"
+        Denna app gör att du kan rulla skärmen bara genom att luta din enhet, och fungerar med alla andra program
+    "</string>
+
+
+
+
+
+
+</resources>

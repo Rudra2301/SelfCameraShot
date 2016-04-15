@@ -1,0 +1,193 @@
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+ 
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+
+    <!-- Info  -->
+    <string name="alert_welcomeDialog_title">"こんにちは"</string>
+    <string name="alert_welcomeDialog_Message">
+        このアプリは、あなたがリモートで次のいずれかの方法を使用して写真を撮ることができます。
+    \n個の\nを
+     - 口笛。
+    \n個
+     - 手の拍手。
+    </string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">"カメラに接続できません"</string>
+    <string name="alert_error_micFailed">"マイクを有効化することができません"</string>
+    <string name="alert_error_photoSaveFailed">"画像を保存できませんでした"</string>
+
+
+    <!-- Warning  -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">"プロの特徴"</string>
+    <string name="pro_proFeatureDialog_cancelBtn">"キャンセル"</string>
+    <string name="pro_proFeatureDialog_okBtn">"購入"</string>
+    <string name="pro_proFeatureDialog_clappingMessage">"モードの手の拍手は「Pro版でのみ利用可能です"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">"[設定]"</string>
+
+    <!-- General  -->
+    <string name="pref_headerTitle_general">"一般的な"</string>
+    <string name="pref_language_title">"言語"</string>
+
+
+    <!-- Main settings  -->
+    <string name="pref_headerTitle_mainCameraSettings">"メインカメラの設定"</string>
+    <string name="pref_catTitle_general">"一般的な"</string>
+    <string name="pref_enableShutterSound_title">"シャッター音を有​​効にします"</string>
+    <string name="pref_pictureSize_title">"画像サイズ"</string>
+    <string name="pref_focusMode_title">"フォーカスモード"</string>
+    <string name="pref_focusMode_disabled">"非アクティブ化"</string>
+    <string name="pref_focusMode_auto">"オート"</string>
+    <string name="pref_focusMode_continuous">"連続的な"</string>
+    <string name="pref_focusMode_infinity">"無限大"</string>
+    <string name="pref_focusMode_macro">"マクロ"</string>
+    <string name="pref_focusMode_fixed">"一定"</string>
+    <string name="pref_sceneMode_title">"シーンモード"</string>
+    <string name="pref_sceneMode__auto">"オート"</string>
+    <string name="pref_sceneMode__action">"アクション"</string>
+    <string name="pref_sceneMode__barcode">"バーコード"</string>
+    <string name="pref_sceneMode__beach">"ビーチ"</string>
+    <string name="pref_sceneMode__candlelight">"キャンドルライト"</string>
+    <string name="pref_sceneMode__fireworks">"花火"</string>
+    <string name="pref_sceneMode__hdr">"HDR"</string>
+    <string name="pref_sceneMode__landscape">"風景"</string>
+    <string name="pref_sceneMode__night">"夜"</string>
+    <string name="pref_sceneMode__party">"パーティー"</string>
+    <string name="pref_sceneMode__portrait">"肖像画"</string>
+    <string name="pref_sceneMode__snow">"雪"</string>
+    <string name="pref_sceneMode__sports">"スポーツの"</string>
+    <string name="pref_sceneMode__steadyphoto">"安定した写真"</string>
+    <string name="pref_sceneMode__sunset">"サンセット"</string>
+    <string name="pref_sceneMode__theatre">"シアター"</string>
+
+
+
+    <!-- advanced  settings -->
+    <string name="pref_headerTitle_advancedCameraSettings">"高度なカメラの設定"</string>
+    <string name="pref_previewSize_title">"プレビューサイズ"</string>
+ 
+    <string name="pref_enableScreenFlash_title">"フラッシュの光のように画面を使用します"</string>
+    <string name="pref_enableScreenFlash_Description">"フロントカメラはフラッシュライトを持っていない場合、画面が白に変わります"</string>
+    <string name="pref_enableTouchToFocus_title">"「集中するタッチ」を有効にします"</string>
+    <string name="pref_enableLocationRecording_title">"場所を保存"</string>
+
+
+
+    <!-- remote  -->
+    <string name="pref_headerTitle_remoteControl">"リモートコントロール"</string>
+    <string name="pref_catTitle_remoteControl">"リモートコントロール"</string>
+    <string name="pref_remoteMode_title">"制御モード"</string>
+    <string name="pref_remoteMode_disabled">"非アクティブ化"</string>
+    <string name="pref_remoteMode_whistle">"ホイッスル"</string>
+    <string name="pref_remoteMode_clapping">"手の拍手"</string>
+    <string name="pref_remoteModeDelay_title">"写真を撮る前に遅延"</string>
+    <string name="pref_remoteModeDelay_formattedValue">"%1$d秒"</string>
+    <string name="pref_whistleSensitivity_title">口笛の感度</string>
+    <string name="pref_catTitle_whistlingControl">"ホイッスル"</string>
+    <string name="pref_clappingSensitivity_title">拍手の感度</string>
+
+
+
+    <!-- Activators  -->
+    <string name="pref_headerTitle_activators">"アクティベータ"</string>
+    <string name="pref_catTitle_activators">"アクティベータ"</string>
+    <string name="pref_volumeButtonsActivator_title">"音量ボタン"</string>
+    <string name="pref_activator__disabled">"非アクティブ化"</string>
+    <string name="pref_activator__shutter">"シャッター"</string>
+    <string name="pref_activator__zoom">"ズーム"</string>
+    <string name="pref_catTitle_advancedCamSettings">"高度なカメラの設定"</string>
+
+
+    <!-- UI  -->
+    <string name="pref_headerTitle_ui">"ユーザーインターフェース"</string>
+    <string name="pref_showZoomUi_title">"ズームコントロールを表示します"</string>
+    <string name="pref_showZoomUi_summary">"あなたは、垂直スワイプを使ってズームを調整することができます"</string>
+    <string name="pref_enableFullscreen_title">全画面表示</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">"ギャラリーは空です"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">"私たちに関しては"</string>
+    <string name="about_legalNotices_btn">"法的通知"</string>
+    <string name="about_legalNotices_windowTitle">"法的通知"</string>
+    <string name="about_developedBy">"Ouadbanユーセフによって開発されました"</string>
+    <string name="about_sendUsEmail_btn">"私達に電子メールを送ります"</string>
+    <string name="about_upgrade_btn">"Pro版にアップグレード"</string>
+    <string name="about_contributions_btn">"貢献度"</string>
+    <string name="about_contributions_windowTitle">"貢献度"</string>
+    <string name="about_otherApps_btn">"アプリ"</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">"アプリを評価"</string>
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+ 
+    <string name="devApps_tiltScroll_description">"このアプリは、あなたがちょうどあなたのデバイスを傾けることによって、画面をスクロールすることができ、他のすべてのアプリケーションで動作します"</string>
+
+
+    <string name="devApps_rapidos_description">
+            "Rapidosはすぐに、アプリケーションを起動する電話をかける、または画面上で指でのジェスチャーを描画することによって、他のタスクを起動することができます。"
+        </string>
+
+
+
+</resources>

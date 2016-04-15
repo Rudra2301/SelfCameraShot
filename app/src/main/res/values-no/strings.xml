@@ -1,0 +1,186 @@
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+ 
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+
+    <!-- Info  -->
+    <string name="alert_welcomeDialog_title">"Hei"</string>
+    <string name="alert_welcomeDialog_Message">"Denne applikasjonen lar deg ta bilder eksternt ved hjelp av en av følgende metoder: \n \n  - piping. \n"</string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">"Kan ikke koble til kamera"</string>
+    <string name="alert_error_micFailed">"Kan ikke aktivere mikrofonen"</string>
+    <string name="alert_error_photoSaveFailed">"Klarte ikke å lagre bildet"</string>
+
+
+    <!-- Warning  -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">"Pro-funksjonen"</string>
+    <string name="pro_proFeatureDialog_cancelBtn">"avbryte"</string>
+    <string name="pro_proFeatureDialog_okBtn">"Kjøpe"</string>
+    <string name="pro_proFeatureDialog_clappingMessage">"Mode 'hands klapping' er kun tilgjengelig i Pro-versjonen"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">"Innstillinger"</string>
+
+    <!-- General  -->
+    <string name="pref_headerTitle_general">"Generelt"</string>
+    <string name="pref_language_title">"Språk"</string>
+
+
+    <!-- Main settings  -->
+    <string name="pref_headerTitle_mainCameraSettings">"Hovedkamerainnstillinger"</string>
+    <string name="pref_catTitle_general">"Generelt"</string>
+    <string name="pref_enableShutterSound_title">"Aktiver lukkerlyden"</string>
+    <string name="pref_pictureSize_title">"Bildestørrelse"</string>
+    <string name="pref_focusMode_title">"Fokusmodus"</string>
+    <string name="pref_focusMode_disabled">"Deaktivert"</string>
+    <string name="pref_focusMode_auto">"Auto"</string>
+    <string name="pref_focusMode_continuous">"Kontinuerlig"</string>
+    <string name="pref_focusMode_infinity">"Infinity"</string>
+    <string name="pref_focusMode_macro">"Macro"</string>
+    <string name="pref_focusMode_fixed">"Fast"</string>
+    <string name="pref_sceneMode_title">"Scene-modus"</string>
+    <string name="pref_sceneMode__auto">"Auto"</string>
+    <string name="pref_sceneMode__action">"Handling"</string>
+    <string name="pref_sceneMode__barcode">"Barcode"</string>
+    <string name="pref_sceneMode__beach">"Beach"</string>
+    <string name="pref_sceneMode__candlelight">"Candle light"</string>
+    <string name="pref_sceneMode__fireworks">"Fyrverkeri"</string>
+    <string name="pref_sceneMode__hdr">"HDR"</string>
+    <string name="pref_sceneMode__landscape">"Landscape"</string>
+    <string name="pref_sceneMode__night">"Natt"</string>
+    <string name="pref_sceneMode__party">"Selskap"</string>
+    <string name="pref_sceneMode__portrait">"Portrett"</string>
+    <string name="pref_sceneMode__snow">"Snø"</string>
+    <string name="pref_sceneMode__sports">"Sport"</string>
+    <string name="pref_sceneMode__steadyphoto">"Bildestabilisering"</string>
+    <string name="pref_sceneMode__sunset">"Sunset"</string>
+    <string name="pref_sceneMode__theatre">"Teater"</string>
+
+
+
+    <!-- advanced  settings -->
+    <string name="pref_headerTitle_advancedCameraSettings">"Avanserte kamerainnstillinger"</string>
+    <string name="pref_previewSize_title">"Preview Size"</string>
+ 
+    <string name="pref_enableScreenFlash_title">"Bruke skjermen som en flash-lys"</string>
+    <string name="pref_enableScreenFlash_Description">"Hvis frontkameraet ikke har en flash-lys, vil skjermen bli hvit"</string>
+    <string name="pref_enableTouchToFocus_title">"Aktiver \"touch fokus\""</string>
+    <string name="pref_enableLocationRecording_title">"Lagre posisjons"</string>
+
+
+
+    <!-- remote  -->
+    <string name="pref_headerTitle_remoteControl">"Fjernkontroll"</string>
+    <string name="pref_catTitle_remoteControl">"Fjernkontroll"</string>
+    <string name="pref_remoteMode_title">"Kontrollmodus"</string>
+    <string name="pref_remoteMode_disabled">"Deaktivert"</string>
+    <string name="pref_remoteMode_whistle">"Whistle"</string>
+    <string name="pref_remoteMode_clapping">"Hands klapping"</string>
+    <string name="pref_remoteModeDelay_title">"Forsinkelse før du tar bilde"</string>
+    <string name="pref_remoteModeDelay_formattedValue">"%1$d sekunder"</string>
+    <string name="pref_whistleSensitivity_title">"Lydfølsomhet"</string>
+    <string name="pref_catTitle_whistlingControl">"Whistle"</string>
+
+
+
+    <!-- Activators  -->
+    <string name="pref_headerTitle_activators">"Aktivatorer"</string>
+    <string name="pref_catTitle_activators">"Aktivatorer"</string>
+    <string name="pref_volumeButtonsActivator_title">"Volumknapper"</string>
+    <string name="pref_activator__disabled">"Deaktivert"</string>
+    <string name="pref_activator__shutter">"Shutter"</string>
+    <string name="pref_activator__zoom">"Zoom"</string>
+    <string name="pref_catTitle_advancedCamSettings">"Avanserte kamerainnstillinger"</string>
+
+
+    <!-- UI  -->
+    <string name="pref_headerTitle_ui">"Brukergrensesnitt"</string>
+    <string name="pref_showZoomUi_title">"Vis zoomkontrollen"</string>
+    <string name="pref_showZoomUi_summary">"Du kan justere zoom ved hjelp av vertikale swipes"</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">"Galleriet er tom"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">"Om oss"</string>
+    <string name="about_legalNotices_btn">"Juridiske merknader"</string>
+    <string name="about_legalNotices_windowTitle">"Juridiske merknader"</string>
+    <string name="about_developedBy">"Utviklet av Ouadban Youssef"</string>
+    <string name="about_sendUsEmail_btn">"Send oss ​​en e-post"</string>
+    <string name="about_upgrade_btn">"Oppgrader til Pro-versjonen"</string>
+    <string name="about_contributions_btn">"Bidrag"</string>
+    <string name="about_contributions_windowTitle">"Bidrag"</string>
+    <string name="about_otherApps_btn">"Apps"</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">"Evaluer app"</string>
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+ 
+    <string name="devApps_tiltScroll_description">"
+        Dette programmet lar deg bla skjermen bare ved å vippe enheten din, og fungerer med alle andre programmer
+    "</string>
+
+
+
+
+
+
+</resources>

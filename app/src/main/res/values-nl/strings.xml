@@ -1,0 +1,186 @@
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+ 
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+
+    <!-- Info  -->
+    <string name="alert_welcomeDialog_title">"Hi"</string>
+    <string name="alert_welcomeDialog_Message">"Deze app stelt u in staat om foto's op afstand via een van de volgende manieren te nemen: \n \n  - fluiten. \n"</string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">"Kan geen verbinding met camera"</string>
+    <string name="alert_error_micFailed">"Niet in staat om de microfoon te activeren"</string>
+    <string name="alert_error_photoSaveFailed">"Mislukt foto op te slaan"</string>
+
+
+    <!-- Warning  -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">"Pro-functie"</string>
+    <string name="pro_proFeatureDialog_cancelBtn">"annuleren"</string>
+    <string name="pro_proFeatureDialog_okBtn">"Kopen"</string>
+    <string name="pro_proFeatureDialog_clappingMessage">"Mode 'handen klappen' is alleen beschikbaar in de Pro-versie"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">"Instellingen"</string>
+
+    <!-- General  -->
+    <string name="pref_headerTitle_general">"Algemeen"</string>
+    <string name="pref_language_title">"Taal"</string>
+
+
+    <!-- Main settings  -->
+    <string name="pref_headerTitle_mainCameraSettings">"Hoofd camera-instellingen"</string>
+    <string name="pref_catTitle_general">"Algemeen"</string>
+    <string name="pref_enableShutterSound_title">"Sluitergeluid inschakelen"</string>
+    <string name="pref_pictureSize_title">"Afbeeldingsgrootte"</string>
+    <string name="pref_focusMode_title">"Focus-modus"</string>
+    <string name="pref_focusMode_disabled">"Gedeactiveerd"</string>
+    <string name="pref_focusMode_auto">"Auto"</string>
+    <string name="pref_focusMode_continuous">"Doorlopend"</string>
+    <string name="pref_focusMode_infinity">"Oneindigheid"</string>
+    <string name="pref_focusMode_macro">"Macro"</string>
+    <string name="pref_focusMode_fixed">"Vast"</string>
+    <string name="pref_sceneMode_title">"Scène modus"</string>
+    <string name="pref_sceneMode__auto">"Auto"</string>
+    <string name="pref_sceneMode__action">"Actie"</string>
+    <string name="pref_sceneMode__barcode">"Barcode"</string>
+    <string name="pref_sceneMode__beach">"Strand"</string>
+    <string name="pref_sceneMode__candlelight">"Kaarslicht"</string>
+    <string name="pref_sceneMode__fireworks">"Vuurwerk"</string>
+    <string name="pref_sceneMode__hdr">"HDR"</string>
+    <string name="pref_sceneMode__landscape">"Landschap"</string>
+    <string name="pref_sceneMode__night">"Nacht"</string>
+    <string name="pref_sceneMode__party">"Partij"</string>
+    <string name="pref_sceneMode__portrait">"Portret"</string>
+    <string name="pref_sceneMode__snow">"Sneeuw"</string>
+    <string name="pref_sceneMode__sports">"Sport-"</string>
+    <string name="pref_sceneMode__steadyphoto">"Steady foto"</string>
+    <string name="pref_sceneMode__sunset">"Zonsondergang"</string>
+    <string name="pref_sceneMode__theatre">"Theater"</string>
+
+
+
+    <!-- advanced  settings -->
+    <string name="pref_headerTitle_advancedCameraSettings">"Geavanceerde camera-instellingen"</string>
+    <string name="pref_previewSize_title">"Voorbeeld Size"</string>
+ 
+    <string name="pref_enableScreenFlash_title">"Gebruik het scherm als het licht van een flitser"</string>
+    <string name="pref_enableScreenFlash_Description">"Als de camera aan de voorkant een flitslicht heeft, wordt het scherm wit worden"</string>
+    <string name="pref_enableTouchToFocus_title">"Enable \"touch te richten\""</string>
+    <string name="pref_enableLocationRecording_title">"Locatie opslaan"</string>
+
+
+
+    <!-- remote  -->
+    <string name="pref_headerTitle_remoteControl">"Afstandsbediening"</string>
+    <string name="pref_catTitle_remoteControl">"Afstandsbediening"</string>
+    <string name="pref_remoteMode_title">"Control-modus"</string>
+    <string name="pref_remoteMode_disabled">"Gedeactiveerd"</string>
+    <string name="pref_remoteMode_whistle">"Fluitje"</string>
+    <string name="pref_remoteMode_clapping">"Handen klappen"</string>
+    <string name="pref_remoteModeDelay_title">"Vertraging voor het nemen van foto"</string>
+    <string name="pref_remoteModeDelay_formattedValue">"%1$d seconden"</string>
+    <string name="pref_whistleSensitivity_title">"Sound Gevoeligheid"</string>
+    <string name="pref_catTitle_whistlingControl">"Fluitje"</string>
+
+
+
+    <!-- Activators  -->
+    <string name="pref_headerTitle_activators">"Activators"</string>
+    <string name="pref_catTitle_activators">"Activators"</string>
+    <string name="pref_volumeButtonsActivator_title">"Volume knoppen"</string>
+    <string name="pref_activator__disabled">"Gedeactiveerd"</string>
+    <string name="pref_activator__shutter">"Sluiter"</string>
+    <string name="pref_activator__zoom">"Zoom"</string>
+    <string name="pref_catTitle_advancedCamSettings">"Geavanceerde camera-instellingen"</string>
+
+
+    <!-- UI  -->
+    <string name="pref_headerTitle_ui">"Gebruikersinterface"</string>
+    <string name="pref_showZoomUi_title">"Laat de zoomknop"</string>
+    <string name="pref_showZoomUi_summary">"U kunt de zoom instellen met behulp van verticale swipes"</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">"De galerie is leeg"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">"Over ons"</string>
+    <string name="about_legalNotices_btn">"Wettelijke vermeldingen"</string>
+    <string name="about_legalNotices_windowTitle">"Wettelijke vermeldingen"</string>
+    <string name="about_developedBy">"Ontwikkeld door Ouadban Youssef"</string>
+    <string name="about_sendUsEmail_btn">"Stuur ons een e-mail"</string>
+    <string name="about_upgrade_btn">"Upgrade naar Pro-versie"</string>
+    <string name="about_contributions_btn">"Bijdragen"</string>
+    <string name="about_contributions_windowTitle">"Bijdragen"</string>
+    <string name="about_otherApps_btn">"Apps"</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">"Beoordeel de app"</string>
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+ 
+    <string name="devApps_tiltScroll_description">"
+        Deze app stelt u in staat om uw scherm te scrollen gewoon door het kantelen van het apparaat, en werkt met alle andere applicaties
+    "</string>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+
+    <ListPreference
+        android:key="prefPreviewSize"
+        android:entries="@array/prefLanguageLabels"
+        android:entryValues="@array/prefLanguageValues"
+        android:title="@string/pref_previewSize_title"
+        />
+
+
+    <CheckBoxPreference
+        android:key="prefEnableCustomStorage"
+        android:title="@string/pref_enableCustomStorage_title"
+
+        />
+
+
+
+    <CheckBoxPreference
+        android:key="prefEnableTouchToFocus"
+        android:title="@string/pref_enableTouchToFocus_title"
+
+        />
+
+    <CheckBoxPreference
+        android:key="prefEnableScreenFlash"
+        android:title="@string/pref_enableScreenFlash_title"
+        android:summary="@string/pref_enableScreenFlash_Description"
+
+        />
+
+
+    <CheckBoxPreference
+        android:key="prefEnableLocationRecording"
+        android:title="@string/pref_enableLocationRecording_title"
+
+        />
+
+    <CheckBoxPreference
+        android:key="prefFlipH"
+        android:title="@string/pref_flipH_title"
+
+        />
+    <CheckBoxPreference
+        android:key="prefFlipV"
+        android:title="@string/pref_flipV_title"
+
+        />
+
+
+
+
+</PreferenceScreen>

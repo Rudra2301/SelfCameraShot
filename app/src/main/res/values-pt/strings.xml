@@ -1,0 +1,204 @@
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+ 
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+
+    <!-- Info  -->
+    <string name="alert_welcomeDialog_title">"Oi"</string>
+    <string name="alert_welcomeDialog_Message">
+        Este aplicativo permite que você tire fotos remotamente através de um dos seguintes métodos:
+     \n \n
+     - Assobio.
+      \n
+     - Palmas mãos.
+    </string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">"Não é possível ligar a câmera"</string>
+    <string name="alert_error_micFailed">"Não é possível ativar o microfone"</string>
+    <string name="alert_error_photoSaveFailed">"Falha ao salvar imagem"</string>
+    <string name="alert_error_selectedFolderNotWritable">A pasta selecionada não é gravável !</string>
+
+
+    <!-- Warning  -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">"O recurso Pro"</string>
+    <string name="pro_proFeatureDialog_cancelBtn">"cancelar"</string>
+    <string name="pro_proFeatureDialog_okBtn">"Comprar"</string>
+    <string name="pro_proFeatureDialog_clappingMessage">"Modo \"mãos batendo palmas\" está disponível apenas na versão Pro"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">"Definições"</string>
+
+    <!-- General  -->
+    <string name="pref_headerTitle_general">"Geral"</string>
+    <string name="pref_language_title">"Língua"</string>
+
+
+    <!-- Main settings  -->
+    <string name="pref_headerTitle_mainCameraSettings">"Principais configurações da câmera"</string>
+    <string name="pref_catTitle_general">"Geral"</string>
+    <string name="pref_enableShutterSound_title">"Ativar som do obturador"</string>
+    <string name="pref_pictureSize_title">"Tamanho da Imagem"</string>
+    <string name="pref_focusMode_title">"Modo de focagem"</string>
+    <string name="pref_focusMode_disabled">"Desactivado"</string>
+    <string name="pref_focusMode_auto">"Automático"</string>
+    <string name="pref_focusMode_continuous">"Contínuo"</string>
+    <string name="pref_focusMode_infinity">"Infinito"</string>
+    <string name="pref_focusMode_macro">"Macro"</string>
+    <string name="pref_focusMode_fixed">"Fixo"</string>
+    <string name="pref_sceneMode_title">"Modo de cena"</string>
+    <string name="pref_sceneMode__auto">"Automático"</string>
+    <string name="pref_sceneMode__action">"Ação"</string>
+    <string name="pref_sceneMode__barcode">"Barcode"</string>
+    <string name="pref_sceneMode__beach">"Praia"</string>
+    <string name="pref_sceneMode__candlelight">"Luz de velas"</string>
+    <string name="pref_sceneMode__fireworks">"Fogos de artifício"</string>
+    <string name="pref_sceneMode__hdr">"HDR"</string>
+    <string name="pref_sceneMode__landscape">"Paisagem"</string>
+    <string name="pref_sceneMode__night">"Noite"</string>
+    <string name="pref_sceneMode__party">"Partido"</string>
+    <string name="pref_sceneMode__portrait">"Retrato"</string>
+    <string name="pref_sceneMode__snow">"Neve"</string>
+    <string name="pref_sceneMode__sports">"Esportes"</string>
+    <string name="pref_sceneMode__steadyphoto">"Foto estável"</string>
+    <string name="pref_sceneMode__sunset">"Pôr do sol"</string>
+    <string name="pref_sceneMode__theatre">"Teatro"</string>
+
+
+
+    <!-- advanced  settings -->
+    <string name="pref_headerTitle_advancedCameraSettings">"Configurações avançadas de câmera"</string>
+    <string name="pref_previewSize_title">"Tamanho de visualização"</string>
+ 
+    <string name="pref_enableScreenFlash_title">"Use a tela como a luz de um flash de"</string>
+    <string name="pref_enableScreenFlash_Description">"Se a câmera frontal não tem um flash de luz, a tela ficará branco"</string>
+    <string name="pref_enableTouchToFocus_title">"Ativar \"toque para focar\""</string>
+    <string name="pref_enableLocationRecording_title">"Salvar localização"</string>
+    <string name="pref_enableCustomStorage_title">armazenamento personalizado</string>
+    <string name="pref_flipH_title">Virar horizontalmente</string>
+    <string name="pref_flipV_title">Virar verticalmente</string>
+
+
+
+    <!-- remote  -->
+    <string name="pref_headerTitle_remoteControl">"Controle remoto"</string>
+    <string name="pref_catTitle_remoteControl">"Controle remoto"</string>
+    <string name="pref_remoteMode_title">"Modo de controle"</string>
+    <string name="pref_remoteMode_disabled">"Desactivado"</string>
+    <string name="pref_remoteMode_whistle">"Assobio"</string>
+    <string name="pref_remoteMode_clapping">"Bater Palmas"</string>
+    <string name="pref_remoteModeDelay_title">"Atraso antes de tomar foto"</string>
+    <string name="pref_remoteModeDelay_formattedValue">"%1$d segundos"</string>
+    <string name="pref_whistleSensitivity_title">A sensibilidade do assobio</string>
+    <string name="pref_catTitle_whistlingControl">"Assobio"</string>
+    <string name="pref_clappingSensitivity_title">A sensibilidade de palmas</string>
+
+
+
+    <!-- Activators  -->
+    <string name="pref_headerTitle_activators">"Ativadores"</string>
+    <string name="pref_catTitle_activators">"Ativadores"</string>
+    <string name="pref_volumeButtonsActivator_title">"Botões de volume"</string>
+    <string name="pref_activator__disabled">"Desactivado"</string>
+    <string name="pref_activator__shutter">"Persiana"</string>
+    <string name="pref_activator__zoom">"Zoom"</string>
+    <string name="pref_catTitle_advancedCamSettings">"Configurações avançadas de câmera"</string>
+
+
+    <!-- UI  -->
+    <string name="pref_headerTitle_ui">"Interface de usuário"</string>
+    <string name="pref_showZoomUi_title">"Mostrar o controle de zoom"</string>
+    <string name="pref_showZoomUi_summary">"Você pode ajustar o zoom usando golpes verticais"</string>
+
+    <string name="pref_enableFullscreen_title">Tela cheia</string>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">"A galeria está vazio"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">"Sobre nós"</string>
+    <string name="about_legalNotices_btn">"Notificações legais"</string>
+    <string name="about_legalNotices_windowTitle">"Notificações legais"</string>
+    <string name="about_developedBy">"Desenvolvido por Ouadban Youssef"</string>
+    <string name="about_sendUsEmail_btn">"Envie-nos um e-mail"</string>
+    <string name="about_upgrade_btn">"Atualizar para a versão Pro"</string>
+    <string name="about_contributions_btn">"Contribuições"</string>
+    <string name="about_contributions_windowTitle">"Contribuições"</string>
+    <string name="about_otherApps_btn">"Aplicativos"</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">"Classifique o app"</string>
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+ 
+    <string name="devApps_tiltScroll_description">"
+        Este aplicativo permite que você navegue sua tela apenas pela inclinação do dispositivo, e trabalha com todos os outros aplicativos
+    "</string>
+
+    <string name="devApps_rapidos_description">
+        "Rapidos permite iniciar rapidamente aplicativos, fazer chamadas telefônicas, ou lançar quaisquer outras tarefas, desenhando gestos com o dedo na tela."
+    </string>
+
+
+    <string name="devApps_opened_description" >
+        Este aplicativo deixá-lo saber se alguém abriu sua gaveta ou seu armário, ou o seu quarto ou qualquer outro recipiente.
+    </string>
+
+
+
+
+</resources>

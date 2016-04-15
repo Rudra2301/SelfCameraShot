@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <style name="TafDevAppsDialog">
+
+        <item name="tafDialog_titleTextColor">@color/taf_devApps_dialog_title_tc</item>
+        <item name="tafDialog_titleDividerColor">@color/taf_devApps_dialog_title_tc</item>
+
+    </style>
+
+
+
+
+
+</resources>

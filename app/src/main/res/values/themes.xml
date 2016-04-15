@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <item name="android:buttonStyle">@style/MyButtonStyle</item>
+        <!--Action bar style-->
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/AppTheme.ActionBar</item>
+        <item name="actionBarStyle">@style/AppTheme.ActionBar</item>
+
+    </style>
+
+
+
+    <style name="AppTheme.custom" parent="AppBaseTheme">
+
+
+
+    </style>
+
+    <style name="AppTheme.Light" parent="AppTheme.custom">
+
+
+        <item name="android:windowBackground">@color/themeLight_window_bc</item>
+        <item name="colorPrimary">@color/themeLight_primary</item>
+        <item name="colorPrimaryDark">@color/themeLight_primaryDark</item>
+        <item name="colorAccent">@color/themeLight_accent</item>
+        <item name="android:textColorPrimary">@color/themeLight_textPrimary</item>
+
+    </style>
+
+
+
+    <style name="AppTheme.Dark" parent="AppTheme.custom">
+        <item name="android:windowBackground">@color/themeLight_window_bc</item>
+        <item name="colorPrimary">@color/themeLight_primary</item>
+        <item name="colorPrimaryDark">@color/themeLight_primaryDark</item>
+        <item name="colorAccent">@color/themeLight_accent</item>
+        <item name="android:textColorPrimary">@color/themeLight_textPrimary</item>
+    </style>
+
+
+    <style name="AppTheme.Light.Settings" parent="AppTheme.Light">
+
+    <item name="android:textColorPrimary">@color/themelight_settings_primary_selector</item>
+
+    </style>
+
+
+
+    <style name="AppTheme.Light.Toolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <item name="android:textColorPrimary">@android:color/white</item>
+
+    </style>
+
+    <style name="AppTheme.Light.ToolbarPopup" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@color/page_textPrimary</item>
+    </style>
+
+
+
+    <style name="AppTheme.DefaultDialog">
+
+        <item name="tafDialog_titleTextColor">@color/dialog_title_tc</item>
+        <item name="tafDialog_titleBackgroundColor">@color/dialog_title_bc</item>
+
+    </style>
+
+
+    <style name="AppTheme.ProLockDialog" parent ="AppTheme.DefaultDialog">
+
+        <item name="tafDialog_messageTextSize">@dimen/pro_lockDialog_messageTextSize</item>
+
+    </style>
+
+
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+
+
+    <style name="AppTheme.Light.CameraPreview" parent="AppTheme.Light">
+
+        <item name="android:windowBackground">@android:color/black</item>
+
+    </style>
+
+
+
+</resources>
+
+

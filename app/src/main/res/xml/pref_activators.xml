@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+
+    <!--=========================================================================================-->
+    <!-- Activators -->
+    <!--=========================================================================================-->
+
+
+    <ListPreference
+        android:key="prefActivatorVolumeButtons"
+        android:entries="@array/pref_volumeButtonsActivator_labels"
+        android:entryValues="@array/pref_volumeButtonsActivator_values"
+        android:title="@string/pref_volumeButtonsActivator_title"
+        />
+
+
+
+
+
+
+
+</PreferenceScreen>

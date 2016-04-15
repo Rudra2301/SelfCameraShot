@@ -1,0 +1,186 @@
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+ 
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+
+    <!-- Info  -->
+    <string name="alert_welcomeDialog_title">"היי"</string>
+    <string name="alert_welcomeDialog_Message">"יישום זה מאפשר לך לצלם מרחוק באמצעות אחת מהשיטות הבאות: \n \n  - שורק. \n  "</string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">"לא ניתן להתחבר למצלמה"</string>
+    <string name="alert_error_micFailed">"לא ניתן להפעיל את המיקרופון"</string>
+    <string name="alert_error_photoSaveFailed">"נכשל ניסיון להציל את התמונה"</string>
+
+
+    <!-- Warning  -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">"תכונת Pro"</string>
+    <string name="pro_proFeatureDialog_cancelBtn">"לבטל"</string>
+    <string name="pro_proFeatureDialog_okBtn">"קנה"</string>
+    <string name="pro_proFeatureDialog_clappingMessage">"\"מחיאות הכפיים הידיים\" המצב זמינה רק בגרסת Pro"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">"הגדרות"</string>
+
+    <!-- General  -->
+    <string name="pref_headerTitle_general">"כללי"</string>
+    <string name="pref_language_title">"שפה"</string>
+
+
+    <!-- Main settings  -->
+    <string name="pref_headerTitle_mainCameraSettings">"הגדרות מצלמה הראשיות"</string>
+    <string name="pref_catTitle_general">"כללי"</string>
+    <string name="pref_enableShutterSound_title">"אפשר צליל תריס"</string>
+    <string name="pref_pictureSize_title">"גודל תמונה"</string>
+    <string name="pref_focusMode_title">"מצב פוקוס"</string>
+    <string name="pref_focusMode_disabled">"מבוטל"</string>
+    <string name="pref_focusMode_auto">"אוטומטי"</string>
+    <string name="pref_focusMode_continuous">"רציף"</string>
+    <string name="pref_focusMode_infinity">"אינפיניטי"</string>
+    <string name="pref_focusMode_macro">"מאקרו"</string>
+    <string name="pref_focusMode_fixed">"קבוע"</string>
+    <string name="pref_sceneMode_title">"מצב סצנה"</string>
+    <string name="pref_sceneMode__auto">"אוטומטי"</string>
+    <string name="pref_sceneMode__action">"פעולה"</string>
+    <string name="pref_sceneMode__barcode">"ברקוד"</string>
+    <string name="pref_sceneMode__beach">"החוף"</string>
+    <string name="pref_sceneMode__candlelight">"אור הנר"</string>
+    <string name="pref_sceneMode__fireworks">"זיקוקין"</string>
+    <string name="pref_sceneMode__hdr">"HDR"</string>
+    <string name="pref_sceneMode__landscape">"נוף"</string>
+    <string name="pref_sceneMode__night">"לילה"</string>
+    <string name="pref_sceneMode__party">"מפלגה"</string>
+    <string name="pref_sceneMode__portrait">"דיוקן"</string>
+    <string name="pref_sceneMode__snow">"שלג"</string>
+    <string name="pref_sceneMode__sports">"ספורט"</string>
+    <string name="pref_sceneMode__steadyphoto">"תמונה יציבה"</string>
+    <string name="pref_sceneMode__sunset">"שקיעה"</string>
+    <string name="pref_sceneMode__theatre">"תיאטרון"</string>
+
+
+
+    <!-- advanced  settings -->
+    <string name="pref_headerTitle_advancedCameraSettings">"הגדרות מצלמה מתקדמות"</string>
+    <string name="pref_previewSize_title">"גודל תצוגה מקדימה"</string>
+ 
+    <string name="pref_enableScreenFlash_title">"השתמש במסך כמו האור של הבזק"</string>
+    <string name="pref_enableScreenFlash_Description">"אם המצלמה הקדמית אין הבזק אור, המסך יהפוך לבן"</string>
+    <string name="pref_enableTouchToFocus_title">"אפשר \"לגעת להתמקד\""</string>
+    <string name="pref_enableLocationRecording_title">"מיקום שמור"</string>
+
+
+
+    <!-- remote  -->
+    <string name="pref_headerTitle_remoteControl">"שלט רחוק"</string>
+    <string name="pref_catTitle_remoteControl">"שלט רחוק"</string>
+    <string name="pref_remoteMode_title">"מצב בקרה"</string>
+    <string name="pref_remoteMode_disabled">"מבוטל"</string>
+    <string name="pref_remoteMode_whistle">"משרוקית"</string>
+    <string name="pref_remoteMode_clapping">"מחיאות כפות"</string>
+    <string name="pref_remoteModeDelay_title">"עיכוב לפני שלקח תמונה"</string>
+    <string name="pref_remoteModeDelay_formattedValue">"%1$d שניות"</string>
+    <string name="pref_whistleSensitivity_title">"רגישות סאונד"</string>
+    <string name="pref_catTitle_whistlingControl">"משרוקית"</string>
+
+
+
+    <!-- Activators  -->
+    <string name="pref_headerTitle_activators">"מטהרי"</string>
+    <string name="pref_catTitle_activators">"מטהרי"</string>
+    <string name="pref_volumeButtonsActivator_title">"לחצני עוצמת קול"</string>
+    <string name="pref_activator__disabled">"מבוטל"</string>
+    <string name="pref_activator__shutter">"תריס"</string>
+    <string name="pref_activator__zoom">"זום"</string>
+    <string name="pref_catTitle_advancedCamSettings">"הגדרות מצלמה מתקדמות"</string>
+
+
+    <!-- UI  -->
+    <string name="pref_headerTitle_ui">"ממשק משתמש"</string>
+    <string name="pref_showZoomUi_title">"הראה את שליטת זום"</string>
+    <string name="pref_showZoomUi_summary">"ניתן להתאים את הזום באמצעות swipes האנכי"</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">"הגלריה ריקה"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">"עלינו"</string>
+    <string name="about_legalNotices_btn">"הודעות משפטיות"</string>
+    <string name="about_legalNotices_windowTitle">"הודעות משפטיות"</string>
+    <string name="about_developedBy">"שפותח על ידי Ouadban יוסף"</string>
+    <string name="about_sendUsEmail_btn">"שלח לנו מייל"</string>
+    <string name="about_upgrade_btn">"שדרג לגרסת Pro"</string>
+    <string name="about_contributions_btn">"תרומות"</string>
+    <string name="about_contributions_windowTitle">"תרומות"</string>
+    <string name="about_otherApps_btn">"Apps"</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">"דרג את האפליקציה"</string>
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+ 
+    <string name="devApps_tiltScroll_description">"
+        יישום זה מאפשר לך לגלול את המסך שלך פשוט על ידי הטיית המכשיר, ועובד עם כל יישומים האחרים
+    "</string>
+
+
+
+
+
+
+</resources>

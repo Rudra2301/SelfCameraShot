@@ -1,0 +1,246 @@
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/PageStyle"
+    android:id="@+id/rl_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+
+    >
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_appInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_logo"
+                />
+
+            <TextView
+                android:id="@+id/app_title"
+                style="@style/TitleStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:layout_marginTop="@dimen/about_itemSpacing"
+                />
+
+            <TextView
+                style="@style/SecondaryContentStyle"
+                android:id="@+id/tv_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="v1.00"
+                android:layout_marginTop="@dimen/about_itemSpacing"
+                />
+
+
+            <TextView
+
+                style="@style/ContentStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_developedBy"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/about_itemSpacing"
+                />
+
+            <TextView
+
+                style="@style/ContentStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="www.tafayor.com"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/about_itemSpacing"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/about_sectionSpacing"
+                >
+
+                <ImageButton
+                    android:id="@+id/social_facebook"
+                    style="@style/HighlightButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="33"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_social_facebook"
+                    android:scaleType="centerInside"
+                    />
+
+                <ImageButton
+                    android:id="@+id/social_gplus"
+                    style="@style/HighlightButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="33"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_social_gplus"
+                    android:scaleType="centerInside"
+                    />
+
+                <ImageButton
+                    android:id="@+id/social_twitter"
+                    style="@style/HighlightButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="33"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_social_twitter"
+                    android:scaleType="centerInside"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+    <ScrollView
+
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_marginTop="@dimen/about_sectionSpacing"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_actions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/ll_appInfo"
+            android:gravity="center"
+
+            >
+
+
+
+
+            <Button
+                android:id="@+id/btn_rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/btn_margin"
+                android:padding="@dimen/btn_padding"
+                android:textSize="@dimen/btn_textSize"
+                android:background="@drawable/default_button_selector"
+                android:textColor="@color/g_dark_alpha"
+                android:text="@string/share_rateUs_btn"
+                />
+
+            <Button
+                android:id="@+id/btn_upgrade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/btn_margin"
+                android:padding="@dimen/btn_padding"
+                android:textSize="@dimen/btn_textSize"
+                android:background="@drawable/default_button_selector"
+                android:textColor="@color/g_dark_alpha"
+                android:text="@string/about_upgrade_btn"
+                android:visibility="gone"
+                />
+
+
+
+
+            <Button
+                android:id="@+id/btn_otherApps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/btn_margin"
+                android:padding="@dimen/btn_padding"
+                android:textSize="@dimen/btn_textSize"
+                android:background="@drawable/default_button_selector"
+                android:textColor="@color/g_dark_alpha"
+                android:text="@string/about_otherApps_btn"
+                />
+
+            <Button
+                android:id="@+id/btn_sendEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/btn_margin"
+                android:padding="@dimen/btn_padding"
+                android:textSize="@dimen/btn_textSize"
+                android:background="@drawable/default_button_selector"
+                android:textColor="@color/g_dark_alpha"
+                android:text="@string/about_sendUsEmail_btn"
+                />
+
+            <Button
+                android:id="@+id/btn_legalNotices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/btn_margin"
+                android:padding="@dimen/btn_padding"
+                android:textSize="@dimen/btn_textSize"
+                android:background="@drawable/default_button_selector"
+                android:textColor="@color/g_dark_alpha"
+                android:text="@string/about_legalNotices_btn" />
+
+            <Button
+                android:id="@+id/btn_contributions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/btn_margin"
+                android:padding="@dimen/btn_padding"
+                android:textSize="@dimen/btn_textSize"
+                android:background="@drawable/default_button_selector"
+                android:textColor="@color/g_dark_alpha"
+                android:text="@string/about_contributions_btn"
+                android:visibility="gone"
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+

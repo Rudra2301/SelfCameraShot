@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+    <com.tafayor.selfcamerashot.taflib.ui.custom.CustomListPreference
+        android:key="prefRemoteMode"
+        android:entries="@array/prefRemoteModeLabels"
+        android:entryValues="@array/prefRemoteModeValues"
+        android:title="@string/pref_remoteMode_title"
+        />
+
+
+    <com.tafayor.selfcamerashot.taflib.ui.components.SeekBarPreference
+        android:key="prefRemoteModeDelay"
+        android:title="@string/pref_remoteModeDelay_title"
+        custom:minValue="0"
+        custom:maxValue="30"
+        custom:seekBarPref_textColor="?android:textColorPrimary"
+        />
+
+
+
+
+        <com.tafayor.selfcamerashot.taflib.ui.components.SeekBarPreference
+            android:key="preWhistleSensitivity"
+            android:title="@string/pref_whistleSensitivity_title"
+            custom:minValue="1"
+            custom:maxValue="100"
+            custom:seekBarPref_textColor="?android:textColorPrimary"
+            />
+
+
+    <com.tafayor.selfcamerashot.taflib.ui.components.SeekBarPreference
+        android:key="preClappingSensitivity"
+        android:title="@string/pref_clappingSensitivity_title"
+        custom:minValue="1"
+        custom:maxValue="100"
+        custom:seekBarPref_textColor="?android:textColorPrimary"
+        />
+
+
+
+
+    <!--=========================================================================================-->
+    <!--   -->
+    <!--=========================================================================================-->
+
+
+</PreferenceScreen>

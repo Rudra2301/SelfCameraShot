@@ -1,0 +1,186 @@
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+ 
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+
+    <!-- Info  -->
+    <string name="alert_welcomeDialog_title">"Hej"</string>
+    <string name="alert_welcomeDialog_Message">"Denne app giver dig mulighed for at tage billeder på afstand ved hjælp af en af ​​følgende metoder: \n \n  - fløjte. \n "</string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">"Kan ikke forbinde til kameraet"</string>
+    <string name="alert_error_micFailed">"Ude af stand til at aktivere mikrofonen"</string>
+    <string name="alert_error_photoSaveFailed">"Kunne ikke gemme billedet"</string>
+
+
+    <!-- Warning  -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">"Pro funktion"</string>
+    <string name="pro_proFeatureDialog_cancelBtn">"afbestille"</string>
+    <string name="pro_proFeatureDialog_okBtn">"Købe"</string>
+    <string name="pro_proFeatureDialog_clappingMessage">"Mode 'hænder klappe \"er kun tilgængelig i Pro-versionen"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">"Indstillinger"</string>
+
+    <!-- General  -->
+    <string name="pref_headerTitle_general">"Generelt"</string>
+    <string name="pref_language_title">"Sprog"</string>
+
+
+    <!-- Main settings  -->
+    <string name="pref_headerTitle_mainCameraSettings">"Vigtigste kameraindstillinger"</string>
+    <string name="pref_catTitle_general">"Generelt"</string>
+    <string name="pref_enableShutterSound_title">"Aktiver lukkerlyd"</string>
+    <string name="pref_pictureSize_title">"Billedstørrelse"</string>
+    <string name="pref_focusMode_title">"Fokusindstilling"</string>
+    <string name="pref_focusMode_disabled">"Deaktiveret"</string>
+    <string name="pref_focusMode_auto">"Auto"</string>
+    <string name="pref_focusMode_continuous">"Kontinuerlig"</string>
+    <string name="pref_focusMode_infinity">"Infinity"</string>
+    <string name="pref_focusMode_macro">"Makro"</string>
+    <string name="pref_focusMode_fixed">"Fast"</string>
+    <string name="pref_sceneMode_title">"Scene-tilstand"</string>
+    <string name="pref_sceneMode__auto">"Auto"</string>
+    <string name="pref_sceneMode__action">"Handling"</string>
+    <string name="pref_sceneMode__barcode">"Stregkode"</string>
+    <string name="pref_sceneMode__beach">"Beach"</string>
+    <string name="pref_sceneMode__candlelight">"Candle light"</string>
+    <string name="pref_sceneMode__fireworks">"Fyrværkeri"</string>
+    <string name="pref_sceneMode__hdr">"HDR"</string>
+    <string name="pref_sceneMode__landscape">"Landskab"</string>
+    <string name="pref_sceneMode__night">"Nat"</string>
+    <string name="pref_sceneMode__party">"Selskab"</string>
+    <string name="pref_sceneMode__portrait">"Portræt"</string>
+    <string name="pref_sceneMode__snow">"Sne"</string>
+    <string name="pref_sceneMode__sports">"Sport"</string>
+    <string name="pref_sceneMode__steadyphoto">"Steady foto"</string>
+    <string name="pref_sceneMode__sunset">"Solnedgang"</string>
+    <string name="pref_sceneMode__theatre">"Teater"</string>
+
+
+
+    <!-- advanced  settings -->
+    <string name="pref_headerTitle_advancedCameraSettings">"Avancerede kameraindstillinger"</string>
+    <string name="pref_previewSize_title">"Eksempel Size"</string>
+ 
+    <string name="pref_enableScreenFlash_title">"Brug skærmen som en flash lys"</string>
+    <string name="pref_enableScreenFlash_Description">"Hvis den forreste kamera ikke har en flash lys, vil skærmen blive hvid"</string>
+    <string name="pref_enableTouchToFocus_title">"Aktiver \"touch til at fokusere\""</string>
+    <string name="pref_enableLocationRecording_title">"Gem placering"</string>
+
+
+
+    <!-- remote  -->
+    <string name="pref_headerTitle_remoteControl">"Fjernbetjening"</string>
+    <string name="pref_catTitle_remoteControl">"Fjernbetjening"</string>
+    <string name="pref_remoteMode_title">"Control mode"</string>
+    <string name="pref_remoteMode_disabled">"Deaktiveret"</string>
+    <string name="pref_remoteMode_whistle">"Whistle"</string>
+    <string name="pref_remoteMode_clapping">"Hænder klappende"</string>
+    <string name="pref_remoteModeDelay_title">"Forsinkelse før du tager foto"</string>
+    <string name="pref_remoteModeDelay_formattedValue">"%1$d sekunder"</string>
+    <string name="pref_whistleSensitivity_title">"Lydfølsomhed"</string>
+    <string name="pref_catTitle_whistlingControl">"Whistle"</string>
+
+
+
+    <!-- Activators  -->
+    <string name="pref_headerTitle_activators">"Aktivatorer"</string>
+    <string name="pref_catTitle_activators">"Aktivatorer"</string>
+    <string name="pref_volumeButtonsActivator_title">"Volumen knapper"</string>
+    <string name="pref_activator__disabled">"Deaktiveret"</string>
+    <string name="pref_activator__shutter">"Shutter"</string>
+    <string name="pref_activator__zoom">"Zoom"</string>
+    <string name="pref_catTitle_advancedCamSettings">"Avancerede kameraindstillinger"</string>
+
+
+    <!-- UI  -->
+    <string name="pref_headerTitle_ui">"Brugergrænseflade"</string>
+    <string name="pref_showZoomUi_title">"Vis zoomknappen"</string>
+    <string name="pref_showZoomUi_summary">"Du kan justere zoom ved hjælp af lodrette aflæser"</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">"Galleriet er tom"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">"Om os"</string>
+    <string name="about_legalNotices_btn">"Juridiske meddelelser"</string>
+    <string name="about_legalNotices_windowTitle">"Juridiske meddelelser"</string>
+    <string name="about_developedBy">"Udviklet af Ouadban Youssef"</string>
+    <string name="about_sendUsEmail_btn">"Send os en e-mail"</string>
+    <string name="about_upgrade_btn">"Opgrader til Pro-versionen"</string>
+    <string name="about_contributions_btn">"Bidrag"</string>
+    <string name="about_contributions_windowTitle">"Bidrag"</string>
+    <string name="about_otherApps_btn">"Apps"</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">"Bedøm app"</string>
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+ 
+    <string name="devApps_tiltScroll_description">"
+        Denne app giver dig mulighed for at rulle skærmen blot ved at vippe din enhed, og fungerer med alle andre programmer
+    "</string>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item  android:state_pressed="true">
+        <shape >
+
+            <solid android:color="@color/heighlight_pressedBC" />
+
+            <corners android:radius="@dimen/heightlight_radius"/>
+
+            <padding android:bottom="@dimen/heightlight_padding"
+                android:top="@dimen/heightlight_padding"
+                android:left="@dimen/heightlight_padding"
+                android:right="@dimen/heightlight_padding"
+                />
+        </shape>
+    </item>
+
+
+
+    <item >
+        <shape >
+
+            <solid android:color="@color/heighlight_normalBC" />
+
+            <corners android:radius="@dimen/heightlight_radius"/>
+
+            <padding android:bottom="@dimen/heightlight_padding"
+                android:top="@dimen/heightlight_padding"
+                android:left="@dimen/heightlight_padding"
+                android:right="@dimen/heightlight_padding"
+                />
+        </shape>
+    </item>
+
+
+</selector>

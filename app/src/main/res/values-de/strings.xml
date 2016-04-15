@@ -1,0 +1,206 @@
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+ 
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+
+    <!-- Info  -->
+    <string name="alert_welcomeDialog_title">"Hallo"</string>
+    <string name="alert_welcomeDialog_Message">
+        Diese App ermöglicht es Ihnen, Bilder aus der Ferne mit Hilfe einer der folgenden Methoden erfolgen:
+     \n \n
+     - Pfeifen.
+     \n
+     - Die Hände klatschen.
+    </string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">"Kann nicht an Kamera anschließen"</string>
+    <string name="alert_error_micFailed">"Nicht in der Lage, um das Mikrofon zu aktivieren"</string>
+    <string name="alert_error_photoSaveFailed">"Fehler beim Bild zu speichern"</string>
+    <string name="alert_error_selectedFolderNotWritable">Der gewählte Ordner ist nicht beschreibbar !</string>
+
+
+    <!-- Warning  -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">"Pro Funktion"</string>
+    <string name="pro_proFeatureDialog_cancelBtn">"stornieren"</string>
+    <string name="pro_proFeatureDialog_okBtn">"Kaufen"</string>
+    <string name="pro_proFeatureDialog_clappingMessage">"Mode 'Händeklatschen' ist nur in der Pro-Version verfügbar"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">"Einstellungen"</string>
+
+    <!-- General  -->
+    <string name="pref_headerTitle_general">"General"</string>
+    <string name="pref_language_title">"Sprache"</string>
+
+
+    <!-- Main settings  -->
+    <string name="pref_headerTitle_mainCameraSettings">"Hauptkamera-Einstellungen"</string>
+    <string name="pref_catTitle_general">"General"</string>
+    <string name="pref_enableShutterSound_title">"Auslöserton aktivieren"</string>
+    <string name="pref_pictureSize_title">"Bildgröße"</string>
+    <string name="pref_focusMode_title">"Fokus-Modus"</string>
+    <string name="pref_focusMode_disabled">"Behindert"</string>
+    <string name="pref_focusMode_auto">"Auto"</string>
+    <string name="pref_focusMode_continuous">"Kontinuierlich"</string>
+    <string name="pref_focusMode_infinity">"Unendlichkeit"</string>
+    <string name="pref_focusMode_macro">"Makro"</string>
+    <string name="pref_focusMode_fixed">"Fest"</string>
+    <string name="pref_sceneMode_title">"Szenenmodus"</string>
+    <string name="pref_sceneMode__auto">"Auto"</string>
+    <string name="pref_sceneMode__action">"Aktion"</string>
+    <string name="pref_sceneMode__barcode">"Strichcode"</string>
+    <string name="pref_sceneMode__beach">"Strand"</string>
+    <string name="pref_sceneMode__candlelight">"Kerzenlicht"</string>
+    <string name="pref_sceneMode__fireworks">"Feuerwerk"</string>
+    <string name="pref_sceneMode__hdr">"HDR"</string>
+    <string name="pref_sceneMode__landscape">"Landschaft"</string>
+    <string name="pref_sceneMode__night">"Nacht"</string>
+    <string name="pref_sceneMode__party">"Party"</string>
+    <string name="pref_sceneMode__portrait">"Portrait"</string>
+    <string name="pref_sceneMode__snow">"Schnee"</string>
+    <string name="pref_sceneMode__sports">"Sport"</string>
+    <string name="pref_sceneMode__steadyphoto">"Steady Foto"</string>
+    <string name="pref_sceneMode__sunset">"Sonnenuntergang"</string>
+    <string name="pref_sceneMode__theatre">"Theatre"</string>
+
+
+
+    <!-- advanced  settings -->
+    <string name="pref_headerTitle_advancedCameraSettings">"Erweiterte Kameraeinstellungen"</string>
+    <string name="pref_previewSize_title">"Vorschau Größe"</string>
+ 
+    <string name="pref_enableScreenFlash_title">"Verwenden Sie Bildschirm als Licht eines Flash-"</string>
+    <string name="pref_enableScreenFlash_Description">"Wenn die vordere Kamera nicht ein Blitzlicht haben, wird der Bildschirm weiß werden"</string>
+    <string name="pref_enableTouchToFocus_title">"Enable \"berühren, um zu konzentrieren\""</string>
+    <string name="pref_enableLocationRecording_title">"Standort speichern"</string>
+    <string name="pref_enableCustomStorage_title">Benutzerdefinierte Speicher</string>
+    <string name="pref_flipH_title">Horizontal spiegeln</string>
+    <string name="pref_flipV_title">Vertikal spiegeln</string>
+
+
+
+    <!-- remote  -->
+    <string name="pref_headerTitle_remoteControl">"Fernbedienung"</string>
+    <string name="pref_catTitle_remoteControl">"Fernbedienung"</string>
+    <string name="pref_remoteMode_title">"Steuermodus"</string>
+    <string name="pref_remoteMode_disabled">"Behindert"</string>
+    <string name="pref_remoteMode_whistle">"Pfeife"</string>
+    <string name="pref_remoteMode_clapping">"Händeklatschen"</string>
+    <string name="pref_remoteModeDelay_title">"Verzögerung vor der Einnahme von Foto"</string>
+    <string name="pref_remoteModeDelay_formattedValue">"%1$d Sekunden"</string>
+    <string name="pref_whistleSensitivity_title">Die Empfindlichkeit der Pfeifen</string>
+    <string name="pref_catTitle_whistlingControl">"Pfeife"</string>
+    <string name="pref_clappingSensitivity_title">Die Empfindlichkeit Klatschen</string>
+
+
+
+    <!-- Activators  -->
+    <string name="pref_headerTitle_activators">"Aktivatoren"</string>
+    <string name="pref_catTitle_activators">"Aktivatoren"</string>
+    <string name="pref_volumeButtonsActivator_title">"Lautstärketasten"</string>
+    <string name="pref_activator__disabled">"Behindert"</string>
+    <string name="pref_activator__shutter">"Verschluss"</string>
+    <string name="pref_activator__zoom">"Zoom"</string>
+    <string name="pref_catTitle_advancedCamSettings">"Erweiterte Kameraeinstellungen"</string>
+
+
+    <!-- UI  -->
+    <string name="pref_headerTitle_ui">"Benutzer interface"</string>
+    <string name="pref_showZoomUi_title">"Zeigen Sie den Zoomschalter"</string>
+    <string name="pref_showZoomUi_summary">"Sie können den Zoom mit vertikalen Seitenhiebe einstellen"</string>
+    <string name="pref_enableFullscreen_title">Vollbild</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">"Die Galerie ist leer"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">"Über uns"</string>
+    <string name="about_legalNotices_btn">"Rechtliche Hinweise"</string>
+    <string name="about_legalNotices_windowTitle">"Rechtliche Hinweise"</string>
+    <string name="about_developedBy">"Entwickelt von Ouadban Youssef"</string>
+    <string name="about_sendUsEmail_btn">"Senden Sie uns eine E-Mail"</string>
+    <string name="about_upgrade_btn">"Upgrade auf Pro-Version"</string>
+    <string name="about_contributions_btn">"Beiträge"</string>
+    <string name="about_contributions_windowTitle">"Beiträge"</string>
+    <string name="about_otherApps_btn">"Apps"</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">"Bewerten Sie die App"</string>
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+ 
+    <string name="devApps_tiltScroll_description">"
+        Diese App ermöglicht es Ihnen, Ihren Bildschirm nur durch Kippen des Geräts zu blättern, und arbeitet mit allen anderen Anwendungen
+    "</string>
+
+    <string name="devApps_rapidos_description">
+        "Rapidos können Sie schnell Anwendungen starten, telefonieren, oder starten Sie alle anderen Aufgaben wahr, indem Gesten mit dem Finger auf dem Bildschirm."
+    </string>
+
+    <string name="devApps_opened_description" >
+        Diese App informiert Sie, wenn jemand Ihre Schublade oder Ihrem Kleiderschrank oder Ihrem Zimmer oder andere Behälter geöffnet.
+    </string>
+
+
+
+
+
+
+</resources>

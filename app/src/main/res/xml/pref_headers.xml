@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header
+        android:fragment="com.tafayor.selfcamerashot.prefs.GeneralSettingsFragment"
+        android:title="@string/pref_headerTitle_general">
+
+        <extra
+                android:name="title"
+                android:value="@string/pref_headerTitle_general" />
+
+    </header>
+
+    <header
+        android:fragment="com.tafayor.selfcamerashot.prefs.CameraSettingsFragment"
+        android:title="@string/pref_headerTitle_mainCameraSettings">
+
+        <extra
+            android:name="title"
+            android:value="@string/pref_headerTitle_mainCameraSettings" />
+
+    </header>
+
+    <header
+        android:fragment="com.tafayor.selfcamerashot.prefs.AdvancedCameraSettingsFragment"
+        android:title="@string/pref_headerTitle_advancedCameraSettings">
+
+        <extra
+            android:name="title"
+            android:value="@string/pref_headerTitle_advancedCameraSettings" />
+
+    </header>
+
+    <header
+        android:fragment="com.tafayor.selfcamerashot.prefs.RemoteControlSettingsFragment"
+        android:title="@string/pref_headerTitle_remoteControl">
+
+        <extra
+            android:name="title"
+            android:value="@string/pref_headerTitle_remoteControl" />
+
+    </header>
+
+
+    <header
+        android:fragment="com.tafayor.selfcamerashot.prefs.UiSettingsFragment"
+        android:title="@string/pref_headerTitle_ui">
+
+        <extra
+            android:name="title"
+            android:value="@string/pref_headerTitle_ui" />
+
+    </header>
+
+
+    <header
+        android:fragment="com.tafayor.selfcamerashot.prefs.ActivatorsSettingsFragment"
+        android:title="@string/pref_headerTitle_activators">
+
+        <extra
+            android:name="title"
+            android:value="@string/pref_headerTitle_activators" />
+
+    </header>
+
+
+
+</preference-headers>

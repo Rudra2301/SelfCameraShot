@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+
+
+
+    <!-- =========================================== -->
+    <!-- Languages -->
+    <!-- =========================================== -->
+    <string-array name="prefLanguageLabels" >
+        <item>@string/lang_arabic</item>
+        <item>@string/lang_bulgarian</item>
+        <item>@string/lang_chinese</item>
+        <item>@string/lang_croatian</item>
+        <item>@string/lang_czech</item>
+        <item>@string/lang_danish</item>
+        <item>@string/lang_dutch</item>
+        <item>@string/lang_english</item>
+        <item>@string/lang_filipino</item>
+        <item>@string/lang_finnish</item>
+        <item>@string/lang_french</item>
+        <item>@string/lang_german</item>
+        <item>@string/lang_hebrew</item>
+        <item>@string/lang_hindi</item>
+        <item>@string/lang_hungarian</item>
+        <item>@string/lang_indonesian</item>
+        <item>@string/lang_italian</item>
+        <item>@string/lang_japanese</item>
+        <item>@string/lang_korean</item>
+        <item>@string/lang_malay</item>
+        <item>@string/lang_norwegian</item>
+        <item>@string/lang_persian</item>
+        <item>@string/lang_polish</item>
+        <item>@string/lang_portuguese</item>
+        <item>@string/lang_romanian</item>
+        <item>@string/lang_russian</item>
+        <item>@string/lang_serbian</item>
+        <item>@string/lang_spanish</item>
+        <item>@string/lang_swedish</item>
+        <item>@string/lang_thai</item>
+        <item>@string/lang_turkish</item>
+        <item>@string/lang_ukrainian</item>
+        <item>@string/lang_vietnamese</item>
+
+
+    </string-array>
+
+    <string-array name="prefLanguageValues" translatable="false">
+        <item>ar</item>
+        <item>bg</item>
+        <item>zh</item>
+        <item>hr</item>
+        <item>cs</item>
+        <item>da</item>
+        <item>nl</item>
+        <item>en</item>
+        <item>fil</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>iw</item>
+        <item>hi</item>
+        <item>hu</item>
+        <item>in</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>ms</item>
+        <item>no</item>
+        <item>fa</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>sr</item>
+        <item>es</item>
+        <item>sv</item>
+        <item>th</item>
+        <item>tr</item>
+        <item>uk</item>
+        <item>vi</item>
+
+    </string-array>
+
+
+
+    <!-- =========================================== -->
+    <!-- Libraries -->
+    <!-- =========================================== -->
+
+
+    <!-- =========================================== -->
+    <!-- Remote modes -->
+    <!-- =========================================== -->
+    <string-array name="prefRemoteModeLabels" >
+        <item>@string/pref_remoteMode_disabled</item>
+        <item>@string/pref_remoteMode_whistle</item>
+        <item>@string/pref_remoteMode_clapping</item>
+
+    </string-array>
+
+    <string-array name="prefRemoteModeValues" translatable="false">
+        <item>disabled</item>
+        <item>whistle</item>
+        <item>clapping</item>
+
+    </string-array>
+
+
+
+    <!-- =========================================== -->
+    <!-- Focus modes -->
+    <!-- =========================================== -->
+    <string-array name="prefFocusModeLabels" >
+        <item>@string/pref_focusMode_auto</item>
+        <item>@string/pref_focusMode_continuous</item>
+        <item>@string/pref_focusMode_infinity</item>
+        <item>@string/pref_focusMode_macro</item>
+        <item>@string/pref_focusMode_fixed</item>
+        <item>EDOF</item>
+
+    </string-array>
+
+    <string-array name="prefFocusModeValues" translatable="false">
+        <item>auto</item>
+        <item>continuous</item>
+        <item>infinity</item>
+        <item>macro</item>
+        <item>fixed</item>
+        <item>edof</item>
+    </string-array>
+
+
+    <!-- =========================================== -->
+    <!-- Focus modes -->
+    <!-- =========================================== -->
+    <string-array name="prefSceneModeLabels" >
+        <item>@string/pref_sceneMode__auto</item>
+        <item>@string/pref_sceneMode__action</item>
+        <item>@string/pref_sceneMode__barcode</item>
+        <item>@string/pref_sceneMode__beach</item>
+        <item>@string/pref_sceneMode__candlelight</item>
+        <item>@string/pref_sceneMode__fireworks</item>
+        <item>@string/pref_sceneMode__hdr</item>
+        <item>@string/pref_sceneMode__landscape</item>
+        <item>@string/pref_sceneMode__night</item>
+        <item>@string/pref_sceneMode__party</item>
+        <item>@string/pref_sceneMode__portrait</item>
+        <item>@string/pref_sceneMode__snow</item>
+        <item>@string/pref_sceneMode__sports</item>
+        <item>@string/pref_sceneMode__steadyphoto</item>
+        <item>@string/pref_sceneMode__sunset</item>
+        <item>@string/pref_sceneMode__theatre</item>
+
+    </string-array>
+
+    <string-array name="prefSceneModeValues" translatable="false">
+        <item>auto</item>
+        <item>action</item>
+        <item>barcode</item>
+        <item>beach</item>
+        <item>candleLight</item>
+        <item>fireworks</item>
+        <item>hdr</item>
+        <item>landscape</item>
+        <item>night</item>
+        <item>party</item>
+        <item>portrait</item>
+        <item>snow</item>
+        <item>sports</item>
+        <item>steadyPhoto</item>
+        <item>sunset</item>
+        <item>theatre</item>
+
+    </string-array>
+
+
+
+    <!-- =========================================== -->
+    <!-- ISO-->
+    <!-- =========================================== -->
+    <string-array name="prefIsoLabels" >
+        <item>@string/pref_sceneMode__auto</item>
+        <item >HJR</item>
+        <item >100</item>
+        <item >200</item>
+        <item >400</item>
+        <item >800</item>
+        <item >1600</item>
+
+    </string-array>
+
+    <string-array name="prefIsoValues" translatable="false">
+        <item>auto</item>
+        <item>hjr</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+    </string-array>
+
+
+
+
+    <!-- =========================================== -->
+    <!-- ISO-->
+    <!-- =========================================== -->
+    <string-array name="pref_volumeButtonsActivator_labels" >
+        <item>@string/pref_activator__disabled</item>
+        <item>@string/pref_activator__shutter</item>
+        <item >@string/pref_activator__zoom</item>
+
+    </string-array>
+
+    <string-array name="pref_volumeButtonsActivator_values" translatable="false">
+        <item>disabled</item>
+        <item>shutter</item>
+        <item>zoom</item>
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<org.apmem.tools.layouts.FlowLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/dev_apps"
+    >
+
+
+
+    <Button
+        android:id="@+id/app_moved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|start|center_vertical"
+        android:drawableLeft="@drawable/ic_app_moved"
+        android:drawableStart="@drawable/ic_app_moved"
+        android:text="Moved"
+        />
+
+        <Button
+            android:id="@+id/app_screenshield"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|start|center_vertical"
+            android:drawableLeft="@drawable/ic_app_screen_shield"
+            android:drawableStart="@drawable/ic_app_screen_shield"
+            android:text="Screen Shield"
+            />
+
+    <Button
+        android:id="@+id/app_rapidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|start|center_vertical"
+        android:drawableLeft="@drawable/ic_launcher_rapidos"
+        android:drawableStart="@drawable/ic_launcher_rapidos"
+        android:text="Rapidos"
+        />
+
+    <Button
+        android:id="@+id/app_tiltscroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|start|center_vertical"
+        android:drawableLeft="@drawable/ic_launcher_tiltscroll"
+        android:drawableStart="@drawable/ic_launcher_tiltscroll"
+        android:text="Tilt Scroll"
+        />
+
+
+    <Button
+        android:id="@+id/app_lockeye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|start|center_vertical"
+        android:drawableLeft="@drawable/ic_app_lockeye"
+        android:drawableStart="@drawable/ic_app_lockeye"
+        android:text="Lockeye"
+        />
+
+
+    <Button
+        android:id="@+id/app_opened"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|start|center_vertical"
+        android:drawableLeft="@drawable/ic_app_opened"
+        android:drawableStart="@drawable/ic_app_opened"
+        android:text="Opened"
+        />
+
+
+
+    <Button
+        android:id="@+id/app_alcomra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|start|center_vertical"
+        android:drawableLeft="@drawable/ic_app_alcomra"
+        android:drawableStart="@drawable/ic_app_alcomra"
+        android:text="Alcomra "
+        />
+
+
+
+</org.apmem.tools.layouts.FlowLayout>

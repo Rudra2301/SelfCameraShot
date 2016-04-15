@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    >
+
+
+
+
+        <FrameLayout
+            android:id="@+id/overlays_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#000000"
+            android:gravity="center"
+            >
+
+            <FrameLayout
+                android:id="@+id/preview_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:gravity="center"
+                />
+
+
+            <com.tafayor.selfcamerashot.camera.FocusOverlay
+                android:id="@+id/focus_overlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"
+                android:focusable="true"
+                android:gravity="center"
+                />
+
+
+            <com.tafayor.selfcamerashot.camera.CameraOverlay
+                android:id="@+id/camera_overlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="false"
+                android:gravity="center"
+                />
+
+        </FrameLayout>
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="7dp"
+
+        >
+
+        <Button
+            android:id="@+id/btn_beta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Send log"
+            android:visibility="gone"
+
+            />
+
+
+
+        <ImageView
+            android:id="@+id/iv_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:padding="@dimen/camera_btn_padding"
+            />
+
+
+        <ImageView
+            android:id="@+id/iv_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:padding="@dimen/camera_btn_padding"
+            />
+
+        <ImageView
+            android:id="@+id/iv_cameraToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/camera_btn_padding"
+            android:visibility="gone"
+            />
+
+
+        <ImageView
+            android:id="@+id/iv_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/camera_btn_padding"
+            />
+
+
+        <ImageView
+            android:id="@+id/iv_thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/camera_thumbnail_selector"
+            android:visibility="gone"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/zoom_panel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:visibility="gone"
+
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/camera_zoom_textColor"
+                android:shadowColor="@color/camera_zoom_controlShadow"
+                android:shadowRadius="5"
+
+                />
+            <com.tafayor.selfcamerashot.taflib.ui.custom.CustomVerticalSeekBar
+                android:id="@+id/zoom_slider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:progress="0"
+                android:secondaryProgress="0"
+                android:progressDrawable="@drawable/camera_zoom_progress_bg"
+                android:thumb="@drawable/camera_zoom_thumb_selector"
+                android:maxWidth="@dimen/camera_zoom_progressWidth"
+                android:maxHeight="@dimen/camera_zoom_progressWidth"
+                android:thumbOffset="@dimen/camera_zoom_thumbOffset"
+                android:paddingTop="@dimen/camera_zoom_thumbOffset"
+                android:paddingBottom="@dimen/camera_zoom_thumbOffset"
+                android:paddingRight="0dp"
+                android:paddingLeft="0dp"
+                />
+            <TextView
+                android:id="@+id/zoom_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/camera_zoom_textColor"
+                android:shadowColor="@color/camera_zoom_controlShadow"
+                android:shadowRadius="5"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/shutter_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+
+            >
+
+            <ImageView
+                android:id="@+id/take_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="@dimen/camera_captureBtn_padding"
+
+
+                />
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+    <com.tafayor.selfcamerashot.camera.ScreenFlash
+        android:id="@+id/screen_flash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>
+

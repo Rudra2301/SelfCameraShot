@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- general  -->
+    <!-- ======================================================================================= -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+    <string name="alert_welcomeDialog_title">مرحبا</string>
+    <string name="alert_welcomeDialog_Message">
+        هذا التطبيق يسمح لك بالتقاط الصور عن بعد باستخدام إحدى الطرق التالية:
+\n\n
+- الصفير.
+\n
+-  التصفيق.
+    </string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">تعذر الاتصال بالكاميرا.</string>
+    <string name="alert_error_micFailed">تعذر استعمال الميكروفون</string>
+    <string name="alert_error_photoSaveFailed">تعذر تسجيل الصورة</string>
+    <string name="alert_error_selectedFolderNotWritable">المجلد المحدد غير قابل للكتابة</string>
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">ميزة غير مجانية</string>
+    <string name="pro_proFeatureDialog_cancelBtn">الغاء</string>
+    <string name="pro_proFeatureDialog_okBtn">شراء</string>
+    <string name="pro_proFeatureDialog_clappingMessage">وضع   \'التصفيق\'  متاح فقط في النسخة البرو</string>
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">الإعدادات</string>
+    <string name="pref_headerTitle_general">عام</string>
+    <string name="pref_language_title">اللغة</string>
+
+
+    <string name="pref_catTitle_general">عام</string>
+    <string name="pref_enableShutterSound_title">تفعيل صوت مصراع الكاميرا</string>
+    <string name="pref_pictureSize_title">حجم الصورة</string>
+    <string name="pref_remoteMode_title">وضع التحكم عن بعد</string>
+    <string name="pref_remoteMode_disabled">غير مشغل</string>
+    <string name="pref_remoteMode_whistle">الصفير</string>
+    <string name="pref_remoteMode_clapping">التصفيق</string>
+    <string name="pref_catTitle_remoteControl">التحكم عن بعد</string>
+    <string name="pref_remoteModeDelay_title">مهلة قبل أخذ الصورة</string>
+    <string name="pref_remoteModeDelay_formattedValue">%1$d  ثانية</string>
+    <string name="pref_whistleSensitivity_title">حساسية الصفير</string>
+    <string name="pref_clappingSensitivity_title">حساسية التصفيق</string>
+    <string name="pref_previewSize_title">حجم المعاينة</string>
+
+    <string name="pref_focusMode_title">وضع التركيز</string>
+    <string name="pref_focusMode_disabled">غير مشغل</string>
+    <string name="pref_focusMode_auto">تلقائي</string>
+    <string name="pref_focusMode_continuous">متواصل</string>
+    <string name="pref_focusMode_infinity">لانهاية</string>
+    <string name="pref_focusMode_macro">ماكرو</string>
+    <string name="pref_focusMode_fixed">ثابت</string>
+
+
+    <string name="pref_sceneMode_title">وضع المشهد</string>
+    <string name="pref_sceneMode__auto">تلقائي</string>
+    <string name="pref_sceneMode__action">الحركة</string>
+    <string name="pref_sceneMode__barcode">الباركود</string>
+    <string name="pref_sceneMode__beach">الشاطئ</string>
+    <string name="pref_sceneMode__candlelight">ضوء الشمعة</string>
+    <string name="pref_sceneMode__fireworks">الألعاب النارية</string>
+    <string name="pref_sceneMode__hdr">HDR</string>
+    <string name="pref_sceneMode__landscape">صور الطبيعة</string>
+    <string name="pref_sceneMode__night">الليل</string>
+    <string name="pref_sceneMode__party">الاحتفال</string>
+    <string name="pref_sceneMode__portrait">صور الاشخاص</string>
+    <string name="pref_sceneMode__snow">الثلج</string>
+    <string name="pref_sceneMode__sports">الرياضة</string>
+    <string name="pref_sceneMode__steadyphoto">صورة مستقرة</string>
+    <string name="pref_sceneMode__sunset">غروب الشمس</string>
+    <string name="pref_sceneMode__theatre">المسرح</string>
+
+
+    <string name="pref_enableScreenFlash_title">استعمال الشاشة كبديل للفلاش</string>
+    <string name="pref_enableScreenFlash_Description">
+        سوف تصبح الشاشة بيضاء، إذا لم يكن لدى الكاميرا الأمامية ضوء الفلاش
+    </string>
+    <string name="pref_catTitle_activators">مفعلات</string>
+    <string name="pref_volumeButtonsActivator_title">أزرار الصوت</string>
+    <string name="pref_activator__disabled">غير مفعل</string>
+    <string name="pref_activator__shutter">المصراع</string>
+    <string name="pref_activator__zoom">التكبير</string>
+    <string name="pref_catTitle_advancedCamSettings">إعدادات الكاميرا المتقدمة</string>
+    <string name="pref_enableTouchToFocus_title">تفعيل "التركيز عن طريق اللمس"</string>
+
+
+    <string name="pref_enableLocationRecording_title">حفظ الموقع</string>
+    <string name="pref_enableCustomStorage_title">التخزين المخصص</string>
+    <string name="pref_flipH_title">التقليب الأفقي</string>
+    <string name="pref_flipV_title">التقليب العمودي</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">معرض الصور فارغ </string>
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">حول هذا التطبيق</string>
+    <string name="about_legalNotices_btn">إشعارات قانونية</string>
+    <string name="about_legalNotices_windowTitle">إشعارات قانونية</string>
+    <string name="about_developedBy">تم تطوير هذا التطبيق من قبل ودبان يوسف</string>
+    <string name="about_sendUsEmail_btn">مراسلتنا على البريد الإلكتروني</string>
+    <string name="about_contributions_btn">مساهمات</string>
+    <string name="about_contributions_windowTitle">مساهمات</string>
+    <string name="about_otherApps_btn">تطبيقات</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">تقييم</string>>
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+
+
+    <string name="devApps_tiltScroll_description" >
+        هذا التطبيق يسمح لك بتمرير الشاشة عن طريق إمالة الجهاز، ويعمل مع جميع التطبيقات الأخرى
+    </string>
+
+    <string name="devApps_rapidos_description">
+        "Rapidos  يتيح لك بدء تشغيل التطبيقات، إجراء مكالمات هاتفية، أو إطلاق أي مهمة أخرى عن طريق تحريك اصبعك على الشاشة "
+    </string>
+
+    <string name="devApps_opened_description" >
+        هذا التطبيق يسمح لك بمعرفة اذا ماقام شخص بفتح درجك او خزانتك او غرفتك او اي حاوية اخرى.
+    </string>
+
+
+
+
+
+
+    <string name="about_upgrade_btn">شراء</string>
+    <string name="pref_catTitle_whistlingControl">الصفير</string>
+    <string name="pref_headerTitle_activators">المفعلات</string>
+    <string name="pref_headerTitle_advancedCameraSettings">الإعدادات المتقدمة</string>
+    <string name="pref_headerTitle_mainCameraSettings">الإعدادات الأساسية</string>
+    <string name="pref_headerTitle_remoteControl">التحكم من بعد</string>
+    <string name="pref_headerTitle_ui">الواجهة</string>
+    <string name="pref_showZoomUi_summary">يمكنك ضبط التكبير باستخدام التحريك العمودي</string>
+    <string name="pref_showZoomUi_title">إظهار اداة التكبير</string>
+    <string name="pref_enableFullscreen_title">كامل الشاشة</string>
+
+
+</resources>

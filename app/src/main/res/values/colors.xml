@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <!-- App theme -->
+    <color name="themeLight_window_bc">#E3E3E3</color>
+    <color name="themeLight_primary">#00ACC1</color>
+    <color name="themeLight_primaryDark">#00859B</color>
+    <color name="themeLight_accent">#00ACC1</color>
+    <color name="themeLight_textPrimary">#ffffff</color>
+    <color name="themeLight_settings_textPrimary">#333333</color>
+    <color name="themeLight_settings_textPrimaryDisabled">#55333333</color>
+
+
+
+    <!-- Page -->
+    <item name="page_bc" type="color">#EEEEEE</item>
+    <item name="page_TitleTextColor" type="color">#00859B</item>
+    <item name="page_textPrimary" type="color">#555555</item>
+    <item name="page_textSecondary" type="color">#888888</item>
+
+
+    <item name="heighlight_normalBC" type="color">#00000000</item>
+    <item name="heighlight_pressedBC" type="color">#cccccc</item>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Camera  -->
+    <!-- ======================================================================================= -->
+    <item name="camera_captureBtn_bg" type="color">#66000000</item>
+    <item name="camera_captureBtn_normalGlow" type="color">#000000</item>
+    <item name="camera_captureBtn_pressedGlow" type="color">#008FFF</item>
+
+    <item name="camera_btn_glowColor" type="color">#000000</item>
+    <item name="camera_btn_pressedBg" type="color">#66ffffff</item>
+    <item name="camera_btn_defaultBg" type="color">#00000000</item>
+    <item name="camera_btn_defaultBorder" type="color">#33000000</item>
+    <item name="camera_btn_selectedDefaultBg" type="color">#66ffffff</item>
+    <item name="camera_btn_selectedDefaultBorder" type="color">#33000000</item>
+    <item name="camera_btn_selectedPressedtBg" type="color">#66ffffff</item>
+    <item name="camera_btn_shadow" type="color">#55000000</item>
+
+    <item name="camera_zoom_progressBcStartColor" type="color">#33ffffff</item>
+    <item name="camera_zoom_progressBcEndColor" type="color">#33555555</item>
+    <item name="camera_zoom_progressFcStartColor" type="color">#55ffffff</item>
+    <item name="camera_zoom_progressFcEndColor" type="color">#55555555</item>
+    <item name="camera_zoom_thumbStartColor" type="color">#ffffff</item>
+    <item name="camera_zoom_thumbEndColor" type="color">#aaaaaa</item>
+    <item name="camera_zoom_textColor" type="color">#bbffffff</item>
+    <item name="camera_zoom_stroke" type="color">#33000000</item>
+    <item name="camera_zoom_panelBgColor" type="color">#55000000</item>
+    <item name="camera_zoom_panelFgColor" type="color">#77ffffff</item>
+    <item name="camera_zoom_controlShadow" type="color">#ffff0000</item>
+
+    <item name="camera_overlay_timerTextColor" type="color">#ffffff</item>
+
+    <item name="camera_navigationBar_colork" type="color">#ff0000</item>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dialog  -->
+    <!-- ======================================================================================= -->
+    <color name="dialog_title_tc">#04798E</color>
+    <color name="dialog_title_bc">#04798E</color>
+    <color name="dialog_message_tc">#333333</color>
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Default button  -->
+    <!-- ======================================================================================= -->
+    <color name="btn_textColor">#99000000</color>
+    <color name="btn_normal_bg">#dddddd</color>
+    <color name="btn_pressed_bg">#00ACC1</color>
+    <color name="btn_stroke">#999999</color>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- General  -->
+    <!-- ======================================================================================= -->
+    <color name="g_light_alpha">#ddffffff</color>
+    <color name="g_dark_alpha">#cc000000</color>
+</resources>

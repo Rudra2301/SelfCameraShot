@@ -1,0 +1,186 @@
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+ 
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+
+    <!-- Info  -->
+    <string name="alert_welcomeDialog_title">"हाय"</string>
+    <string name="alert_welcomeDialog_Message">"इस app आप दूर से निम्न विधियों में से एक का उपयोग कर तस्वीरें लेने के लिए अनुमति देता है: \n \ N - सीटी बजा। \n "</string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">"कैमरे से कनेक्ट नहीं कर सकते"</string>
+    <string name="alert_error_micFailed">"माइक्रोफोन सक्रिय करने में असमर्थ"</string>
+    <string name="alert_error_photoSaveFailed">"चित्र सहेजने में विफल"</string>
+
+
+    <!-- Warning  -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">"प्रो सुविधा"</string>
+    <string name="pro_proFeatureDialog_cancelBtn">"रद्द करना"</string>
+    <string name="pro_proFeatureDialog_okBtn">"खरीदें"</string>
+    <string name="pro_proFeatureDialog_clappingMessage">"'मोड हाथ ताली बजाने' केवल प्रो संस्करण में उपलब्ध है"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">"सेटिंग"</string>
+
+    <!-- General  -->
+    <string name="pref_headerTitle_general">"सामान्य"</string>
+    <string name="pref_language_title">"भाषा"</string>
+
+
+    <!-- Main settings  -->
+    <string name="pref_headerTitle_mainCameraSettings">"मुख्य कैमरा सेटिंग"</string>
+    <string name="pref_catTitle_general">"सामान्य"</string>
+    <string name="pref_enableShutterSound_title">"शटर ध्वनि सक्षम करें"</string>
+    <string name="pref_pictureSize_title">"चित्र का आकार"</string>
+    <string name="pref_focusMode_title">"संकेन्द्रित विधि"</string>
+    <string name="pref_focusMode_disabled">"निष्क्रिय किया"</string>
+    <string name="pref_focusMode_auto">"ऑटो"</string>
+    <string name="pref_focusMode_continuous">"निरंतर"</string>
+    <string name="pref_focusMode_infinity">"अनन्तता"</string>
+    <string name="pref_focusMode_macro">"मैक्रो"</string>
+    <string name="pref_focusMode_fixed">"स्थिर"</string>
+    <string name="pref_sceneMode_title">"दृश्य मोड"</string>
+    <string name="pref_sceneMode__auto">"ऑटो"</string>
+    <string name="pref_sceneMode__action">"कार्य"</string>
+    <string name="pref_sceneMode__barcode">"बारकोड"</string>
+    <string name="pref_sceneMode__beach">"समुद्र तट"</string>
+    <string name="pref_sceneMode__candlelight">"बत्ती की रोशनी"</string>
+    <string name="pref_sceneMode__fireworks">"पटाखे"</string>
+    <string name="pref_sceneMode__hdr">"एचडीआर"</string>
+    <string name="pref_sceneMode__landscape">"परिदृश्य"</string>
+    <string name="pref_sceneMode__night">"रात"</string>
+    <string name="pref_sceneMode__party">"पार्टी"</string>
+    <string name="pref_sceneMode__portrait">"चित्र"</string>
+    <string name="pref_sceneMode__snow">"हिमपात"</string>
+    <string name="pref_sceneMode__sports">"खेल"</string>
+    <string name="pref_sceneMode__steadyphoto">"संभल तस्वीर"</string>
+    <string name="pref_sceneMode__sunset">"सूर्यास्त"</string>
+    <string name="pref_sceneMode__theatre">"रंगमंच"</string>
+
+
+
+    <!-- advanced  settings -->
+    <string name="pref_headerTitle_advancedCameraSettings">"उन्नत कैमरा सेटिंग"</string>
+    <string name="pref_previewSize_title">"पूर्वावलोकन आकार"</string>
+ 
+    <string name="pref_enableScreenFlash_title">"एक फ्लैश के प्रकाश के रूप में स्क्रीन का प्रयोग करें"</string>
+    <string name="pref_enableScreenFlash_Description">"कैमरे के सामने एक फ्लैश लाइट नहीं है, स्क्रीन सफेद हो जाएगा"</string>
+    <string name="pref_enableTouchToFocus_title">"\"ध्यान केंद्रित करने के लिए स्पर्श\" सक्षम"</string>
+    <string name="pref_enableLocationRecording_title">"स्थान सहेजें"</string>
+
+
+
+    <!-- remote  -->
+    <string name="pref_headerTitle_remoteControl">"रिमोट कंट्रोल"</string>
+    <string name="pref_catTitle_remoteControl">"रिमोट कंट्रोल"</string>
+    <string name="pref_remoteMode_title">"साधन"</string>
+    <string name="pref_remoteMode_disabled">"निष्क्रिय किया"</string>
+    <string name="pref_remoteMode_whistle">"सीटी"</string>
+    <string name="pref_remoteMode_clapping">"हाथ ताली बजाने"</string>
+    <string name="pref_remoteModeDelay_title">"फोटो लेने से पहले विलंब"</string>
+    <string name="pref_remoteModeDelay_formattedValue">"%1$d सेकंड"</string>
+    <string name="pref_whistleSensitivity_title">"ध्वनि संवेदनशीलता"</string>
+    <string name="pref_catTitle_whistlingControl">"सीटी"</string>
+
+
+
+    <!-- Activators  -->
+    <string name="pref_headerTitle_activators">"Activators"</string>
+    <string name="pref_catTitle_activators">"Activators"</string>
+    <string name="pref_volumeButtonsActivator_title">"वॉल्यूम बटन"</string>
+    <string name="pref_activator__disabled">"निष्क्रिय किया"</string>
+    <string name="pref_activator__shutter">"शटर"</string>
+    <string name="pref_activator__zoom">"ज़ूम"</string>
+    <string name="pref_catTitle_advancedCamSettings">"उन्नत कैमरा सेटिंग"</string>
+
+
+    <!-- UI  -->
+    <string name="pref_headerTitle_ui">"प्रयोक्ता इंटरफ़ेस"</string>
+    <string name="pref_showZoomUi_title">"ज़ूम नियंत्रण दिखाएँ"</string>
+    <string name="pref_showZoomUi_summary">"आप ऊर्ध्वाधर swipes का उपयोग कर ज़ूम समायोजित कर सकते हैं"</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">"गैलरी खाली है"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">"हमारे बारे में"</string>
+    <string name="about_legalNotices_btn">"कानूनी नोटिस"</string>
+    <string name="about_legalNotices_windowTitle">"कानूनी नोटिस"</string>
+    <string name="about_developedBy">"Ouadban युसुफ द्वारा विकसित"</string>
+    <string name="about_sendUsEmail_btn">"हमें एक ईमेल भेजो"</string>
+    <string name="about_upgrade_btn">"प्रो संस्करण में अपग्रेड करें"</string>
+    <string name="about_contributions_btn">"योगदान"</string>
+    <string name="about_contributions_windowTitle">"योगदान"</string>
+    <string name="about_otherApps_btn">"एप्प्स"</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">"एप्प का मूल्यांकन"</string>
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+ 
+    <string name="devApps_tiltScroll_description">"
+        यह एप्लिकेशन तुम सिर्फ अपने डिवाइस झुकने से अपनी स्क्रीन स्क्रॉल करने के लिए अनुमति देता है, और सभी अन्य अनुप्रयोगों के साथ काम करता है
+    "</string>
+
+
+
+
+
+
+</resources>

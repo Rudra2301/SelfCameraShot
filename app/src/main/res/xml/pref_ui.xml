@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <CheckBoxPreference
+        android:key="prefShowZoomUi"
+        android:title="@string/pref_showZoomUi_title"
+        android:summary="@string/pref_showZoomUi_summary"
+        />
+
+
+
+
+</PreferenceScreen>

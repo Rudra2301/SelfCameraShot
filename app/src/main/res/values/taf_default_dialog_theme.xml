@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="TafDefaultDialog" >
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+
+        <item name="tafDialog_dialogStyle">@style/TafDefaultDialog.Light</item>
+        <item name="tafDialog_titleTextStyle">@style/TafDefaultDialog.Title</item>
+        <item name="tafDialog_messageTextStyle">@style/TafDefaultDialog.Message</item>
+
+    </style>
+
+
+    <style name="TafDefaultDialog.Light">
+        <item name="tafDialog_background">@drawable/taf_default_dialog_bg</item>
+        <item name="tafDialog_titleTextColor">@color/taf_themeLight_dialog_title_tc</item>
+        <item name="tafDialog_titleBackgroundColor">@color/taf_themeLight_dialog_title_bc</item>
+        <item name="tafDialog_titleDividerColor">@color/taf_themeLight_dialog_titleDivider</item>
+        <item name="tafDialog_messageTextColor">@color/taf_themeLight_dialog_message_tc</item>
+        <item name="tafDialog_messageTextSize">@dimen/tafDefaultDialog_message_textSize</item>
+        <item name="tafDialog_buttonTextColor">@color/taf_themeLight_dialog_button_tc</item>
+        <item name="tafDialog_buttonPanelBackgroundColor">@color/taf_themeLight_dialog_buttonPanel_bc</item>
+        <item name="tafDialog_buttonPanelDividerColor">@color/taf_themeLight_dialog_buttonPanelDivider</item>
+        <item name="tafDialog_buttonDividerColor">@color/taf_themeLight_dialog_buttonDivider</item>
+        <item name="tafDialog_buttonBackgroundColorNormal">@color/taf_themeLight_dialog_button_normal_bc</item>
+        <item name="tafDialog_buttonBackgroundColorPressed">@color/taf_themeLight_dialog_button_pressed_bc</item>
+        <item name="tafDialog_buttonBackgroundColorFocused">@color/taf_themeLight_dialog_button_focused_bc</item>
+
+
+    </style>
+
+    <style name="TafDefaultDialog.Dark"  >
+        <item name="tafDialog_background">@drawable/taf_default_dialog_bg</item>
+        <item name="tafDialog_titleTextColor">@color/taf_themeDark_dialog_title_tc</item>
+        <item name="tafDialog_titleBackgroundColor">@color/taf_themeDark_dialog_title_bc</item>
+        <item name="tafDialog_titleDividerColor">@color/taf_themeDark_dialog_titleDivider</item>
+        <item name="tafDialog_messageTextColor">@color/taf_themeDark_dialog_message_tc</item>
+        <item name="tafDialog_buttonTextColor">@color/taf_themeDark_dialog_button_tc</item>
+        <item name="tafDialog_buttonPanelBackgroundColor">@color/taf_themeDark_dialog_buttonPanel_bc</item>
+        <item name="tafDialog_buttonPanelDividerColor">@color/taf_themeDark_dialog_buttonPanelDivider</item>
+        <item name="tafDialog_buttonDividerColor">@color/taf_themeDark_dialog_buttonDivider</item>
+        <item name="tafDialog_buttonBackgroundColorNormal">@color/taf_themeDark_dialog_button_normal_bc</item>
+        <item name="tafDialog_buttonBackgroundColorPressed">@color/taf_themeDark_dialog_button_pressed_bc</item>
+        <item name="tafDialog_buttonBackgroundColorFocused">@color/taf_themeDark_dialog_button_focused_bc</item>
+
+
+    </style>
+
+
+
+
+    <style name="TafDefaultDialog.Title" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/tafDefaultDialog_title_textSize</item>
+        <item name="android:layout_marginLeft">@dimen/tafDefaultDialog_title_margin</item>
+        <item name="android:layout_marginRight">@dimen/tafDefaultDialog_title_margin</item>
+        <item name="android:layout_marginTop">@dimen/tafDefaultDialog_title_margin</item>
+        <item name="android:layout_marginBottom">@dimen/tafDefaultDialog_title_margin</item>
+    </style>
+
+    <style name="TafDefaultDialog.Message" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/tafDefaultDialog_message_textSize</item>
+        <item name="android:layout_marginTop">@dimen/tafDefaultDialog_message_margin</item>
+        <item name="android:layout_marginBottom">@dimen/tafDefaultDialog_message_margin</item>
+        <item name="android:layout_marginLeft">@dimen/tafDefaultDialog_message_margin</item>
+        <item name="android:layout_marginRight">@dimen/tafDefaultDialog_message_margin</item>
+    </style>
+
+    <style name="TafDefaultDialog.Button" parent="@android:style/Widget.Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">@dimen/tafDefaultDialog_button_padding</item>
+        <item name="android:paddingBottom">@dimen/tafDefaultDialog_button_padding</item>
+        <item name="android:textSize">@dimen/tafDefaultDialog_button_textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+</resources>

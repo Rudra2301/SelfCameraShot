@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <!--=========================================================================================-->
+    <!-- General -->
+    <!--=========================================================================================-->
+
+
+    <ListPreference
+        android:key="prefLanguage"
+        android:entries="@array/prefLanguageLabels"
+        android:entryValues="@array/prefLanguageValues"
+        android:title="@string/pref_language_title"
+        android:defaultValue="en"/>
+
+
+
+        <CheckBoxPreference
+            android:key="prefEnableShutterSound"
+            android:title="@string/pref_enableShutterSound_title"
+
+            />
+
+
+        <ListPreference
+            android:key="prefPictureSize"
+
+            android:title="@string/pref_pictureSize_title"
+             />
+
+
+    <ListPreference
+        android:key="prefPreviewSize"
+
+        android:title="@string/pref_previewSize_title"
+        />
+
+
+    <ListPreference
+        android:key="prefFocusMode"
+        android:entries="@array/prefFocusModeLabels"
+        android:entryValues="@array/prefFocusModeValues"
+        android:title="@string/pref_focusMode_title"
+        />
+
+
+
+
+    <ListPreference
+        android:key="prefSceneMode"
+        android:entries="@array/prefSceneModeLabels"
+        android:entryValues="@array/prefSceneModeValues"
+        android:title="@string/pref_sceneMode_title"
+        />
+
+
+    <!--=========================================================================================-->
+    <!-- Remote Control -->
+    <!--=========================================================================================-->
+    <PreferenceCategory
+        android:title="@string/pref_catTitle_remoteControl"
+        >
+
+
+        <com.tafayor.selfcamerashot.taflib.ui.custom.CustomListPreference
+            android:key="prefRemoteMode"
+            android:entries="@array/prefRemoteModeLabels"
+            android:entryValues="@array/prefRemoteModeValues"
+            android:title="@string/pref_remoteMode_title"
+            />
+
+
+        <com.tafayor.selfcamerashot.taflib.ui.components.SeekBarPreference
+            android:key="prefRemoteModeDelay"
+            android:title="@string/pref_remoteModeDelay_title"
+            custom:minValue="0"
+            custom:maxValue="30"
+            custom:seekBarPref_textColor="?android:textColorPrimary"
+            />
+
+
+        <com.tafayor.selfcamerashot.taflib.ui.components.SeekBarPreference
+            android:key="prefRemoteControlSensitivity"
+            android:title="@string/pref_whistleSensitivity_title"
+            custom:minValue="1"
+            custom:maxValue="100"
+            custom:seekBarPref_textColor="?android:textColorPrimary"
+            />
+
+        <com.tafayor.selfcamerashot.taflib.ui.components.SeekBarPreference
+            android:key="preClappingSensitivity"
+            android:title="@string/pref_clappingSensitivity_title"
+            custom:minValue="1"
+            custom:maxValue="100"
+            custom:seekBarPref_textColor="?android:textColorPrimary"
+            />
+
+
+
+    </PreferenceCategory>
+
+
+
+
+
+    <!--=========================================================================================-->
+    <!-- Advanced Camera settings -->
+    <!--=========================================================================================-->
+    <PreferenceCategory
+        android:title="@string/pref_catTitle_advancedCamSettings"
+        android:key="prefCatAdvancedCameraSettings"
+        >
+
+        <ListPreference
+            android:key="prefIso"
+            android:entries="@array/prefIsoLabels"
+            android:entryValues="@array/prefIsoValues"
+            android:title="@string/pref_iso_title"
+            />
+
+
+
+
+    </PreferenceCategory>
+
+
+
+
+
+
+
+
+
+</PreferenceScreen>

@@ -1,0 +1,197 @@
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+ 
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+
+    <!-- Info  -->
+    <string name="alert_welcomeDialog_title">"你好"</string>
+    <string name="alert_welcomeDialog_Message">
+        该应用程序允许您把使用下列方法之一远程图片：
+    \n\n
+     - 呼啸。
+     \n
+     - 手拍手。
+    </string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">"无法连接到相机"</string>
+    <string name="alert_error_micFailed">"无法激活麦克风"</string>
+    <string name="alert_error_photoSaveFailed">"无法保存图片"</string>
+
+
+    <!-- Warning  -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">"临功能"</string>
+    <string name="pro_proFeatureDialog_cancelBtn">"取消"</string>
+    <string name="pro_proFeatureDialog_okBtn">"购买"</string>
+    <string name="pro_proFeatureDialog_clappingMessage">"模式“双手击掌”仅在专业版"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">"设置"</string>
+
+    <!-- General  -->
+    <string name="pref_headerTitle_general">"一般"</string>
+    <string name="pref_language_title">"语言"</string>
+
+
+    <!-- Main settings  -->
+    <string name="pref_headerTitle_mainCameraSettings">"主摄像头设置"</string>
+    <string name="pref_catTitle_general">"一般"</string>
+    <string name="pref_enableShutterSound_title">"启用快门声"</string>
+    <string name="pref_pictureSize_title">"图片大小"</string>
+    <string name="pref_focusMode_title">"对焦模式"</string>
+    <string name="pref_focusMode_disabled">"停用"</string>
+    <string name="pref_focusMode_auto">"汽车"</string>
+    <string name="pref_focusMode_continuous">"连续"</string>
+    <string name="pref_focusMode_infinity">"无限"</string>
+    <string name="pref_focusMode_macro">"宏"</string>
+    <string name="pref_focusMode_fixed">"固定"</string>
+    <string name="pref_sceneMode_title">"场景模式"</string>
+    <string name="pref_sceneMode__auto">"汽车"</string>
+    <string name="pref_sceneMode__action">"行动"</string>
+    <string name="pref_sceneMode__barcode">"条码"</string>
+    <string name="pref_sceneMode__beach">"海滩"</string>
+    <string name="pref_sceneMode__candlelight">"烛光"</string>
+    <string name="pref_sceneMode__fireworks">"烟花"</string>
+    <string name="pref_sceneMode__hdr">"HDR"</string>
+    <string name="pref_sceneMode__landscape">"景观"</string>
+    <string name="pref_sceneMode__night">"夜晚"</string>
+    <string name="pref_sceneMode__party">"党"</string>
+    <string name="pref_sceneMode__portrait">"肖像"</string>
+    <string name="pref_sceneMode__snow">"雪"</string>
+    <string name="pref_sceneMode__sports">"体育"</string>
+    <string name="pref_sceneMode__steadyphoto">"稳步照片"</string>
+    <string name="pref_sceneMode__sunset">"日落"</string>
+    <string name="pref_sceneMode__theatre">"剧院"</string>
+
+
+
+    <!-- advanced  settings -->
+    <string name="pref_headerTitle_advancedCameraSettings">"先进的相机设置"</string>
+    <string name="pref_previewSize_title">"预览大小"</string>
+ 
+    <string name="pref_enableScreenFlash_title">"使用屏幕闪光灯的光"</string>
+    <string name="pref_enableScreenFlash_Description">"如果前置摄像头没有闪光灯，屏幕会变白"</string>
+    <string name="pref_enableTouchToFocus_title">"启用“触摸重点”"</string>
+    <string name="pref_enableLocationRecording_title">"保存位置"</string>
+    <string name="pref_enableCustomStorage_title">自定义存储</string>
+    <string name="pref_flipH_title">水平翻转</string>
+    <string name="pref_flipV_title">垂直翻转</string>
+
+
+
+    <!-- remote  -->
+    <string name="pref_headerTitle_remoteControl">"遥控"</string>
+    <string name="pref_catTitle_remoteControl">"遥控"</string>
+    <string name="pref_remoteMode_title">"控制方式"</string>
+    <string name="pref_remoteMode_disabled">"停用"</string>
+    <string name="pref_remoteMode_whistle">"哨"</string>
+    <string name="pref_remoteMode_clapping">"手拍手"</string>
+    <string name="pref_remoteModeDelay_title">"拍照前的延迟"</string>
+    <string name="pref_remoteModeDelay_formattedValue">"%1$d秒"</string>
+    <string name="pref_whistleSensitivity_title">呼啸的敏感性</string>
+    <string name="pref_catTitle_whistlingControl">"哨"</string>
+    <string name="pref_clappingSensitivity_title">拍手的灵敏度</string>
+
+
+
+    <!-- Activators  -->
+    <string name="pref_headerTitle_activators">"激活"</string>
+    <string name="pref_catTitle_activators">"激活"</string>
+    <string name="pref_volumeButtonsActivator_title">"音量按钮"</string>
+    <string name="pref_activator__disabled">"停用"</string>
+    <string name="pref_activator__shutter">"快门"</string>
+    <string name="pref_activator__zoom">"放大"</string>
+    <string name="pref_catTitle_advancedCamSettings">"先进的相机设置"</string>
+
+
+    <!-- UI  -->
+    <string name="pref_headerTitle_ui">"用户界面"</string>
+    <string name="pref_showZoomUi_title">"显示缩放控制"</string>
+    <string name="pref_showZoomUi_summary">"您可以使用垂直挥笔调整变焦"</string>
+    <string name="pref_enableFullscreen_title">全屏</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">"这个画廊是空的"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">"关于我们"</string>
+    <string name="about_legalNotices_btn">"法律声明"</string>
+    <string name="about_legalNotices_windowTitle">"法律声明"</string>
+    <string name="about_developedBy">"通过Ouadban优素福开发"</string>
+    <string name="about_sendUsEmail_btn">"给我们发电子邮件"</string>
+    <string name="about_upgrade_btn">"升级到专业版"</string>
+    <string name="about_contributions_btn">"捐款"</string>
+    <string name="about_contributions_windowTitle">"捐款"</string>
+    <string name="about_otherApps_btn">"应用程序"</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">"速率的应用程序"</string>
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+ 
+    <string name="devApps_tiltScroll_description">"这个程序可以让你只需倾斜你的设备来滚动屏幕，并与所有其他应用程序"</string>
+
+    <string name="devApps_rapidos_description">
+            "Rapidos 允许您快速启动应用程序，拨打电话，或启动任何其他任务，通过绘制手势用手指在屏幕上。"
+        </string>
+
+
+
+
+</resources>

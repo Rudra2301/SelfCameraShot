@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--  Start Button  default values -->
+
+
+
+
+
+    <!--  Dev apps -->
+    <color name="taf_devApps_dialog_title_tc">#3AA5B8</color>
+    <color name="taf_devApps_title_tc">#333333</color>
+    <color name="taf_devApps_description_tc">#666666</color>
+    <color name="taf_devApps_installBtn_bc">#3DAEC1</color>
+
+
+
+    <!--  ActionIconView  -->
+    <color name="taf_actionIcon_fc">#ffffff</color>
+    <color name="taf_actionIcon_bc">#bb000000</color>
+    <color name="taf_actionIcon_blink_fc">#000000</color>
+
+
+
+
+
+    <!--  Result messages -->
+    <color name="taf_resmsg_msg_tc">#333333</color>
+    <color name="taf_resmsg_moreinfo_tc">#3B5269</color>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--  Pref slider -->
+    <color name="taf_seekBarPref_textColor">#ff0000</color>
+
+
+
+
+
+    <!-- Dialog -->
+
+    <color name="taf_dialogSuccess_title_tc">#67B71F</color>
+    <color name="taf_dialogSuccess_titleDivider">#67B71F</color>
+    <color name="taf_dialogError_title_tc">#D82424</color>
+    <color name="taf_dialogError_titleDivider">#D82424</color>
+    <color name="taf_dialogInfo_title_tc">#1373D1</color>
+    <color name="taf_dialogInfo_titleDivider">#1373D1</color>
+    <color name="taf_dialogWarning_title_tc">#DA8B0A</color>
+    <color name="taf_dialogWarning_titleDivider">#DA8B0A</color>
+
+
+
+    <!-- custom light theme: -->
+    <color name="taf_themeLight_dialog_bc">#ffffff</color>
+    <color name="taf_themeLight_dialog_message_tc">#333333</color>
+    <color name="taf_themeLight_dialog_title_tc">#3F9FE0</color>
+    <color name="taf_themeLight_dialog_title_bc">#3F9FE0</color>
+    <color name="taf_themeLight_dialog_titleDivider">#3F9FE0</color>
+    <color name="taf_themeLight_dialog_button_tc">#333333</color>
+    <color name="taf_themeLight_dialog_button_normal_bc">#F3F3F3</color>
+    <color name="taf_themeLight_dialog_button_pressed_bc">#E3E3E3</color>
+    <color name="taf_themeLight_dialog_button_focused_bc">#E3E3E3</color>
+    <color name="taf_themeLight_dialog_buttonPanel_bc">#ECECEC</color>
+    <color name="taf_themeLight_dialog_buttonPanelDivider">#DADADA</color>
+    <color name="taf_themeLight_dialog_buttonDivider">#E3E3E3</color>
+
+
+
+    <!-- custom dark theme: -->
+    <color name="taf_themeDark_dialog_bc">#000000</color>
+    <color name="taf_themeDark_dialog_message_tc">#FFFFFF</color>
+    <color name="taf_themeDark_dialog_title_tc">#F8A500</color>
+    <color name="taf_themeDark_dialog_title_bc">#F8A500</color>
+    <color name="taf_themeDark_dialog_titleDivider">#F8A500</color>
+    <color name="taf_themeDark_dialog_button_tc">#FFFFFF</color>
+    <color name="taf_themeDark_dialog_button_normal_bc">@android:color/transparent</color>
+    <color name="taf_themeDark_dialog_button_pressed_bc">#99F8A500</color>
+    <color name="taf_themeDark_dialog_button_focused_bc">#4CF8A500</color>
+    <color name="taf_themeDark_dialog_buttonPanel_bc">#ECECEC</color>
+    <color name="taf_themeDark_dialog_buttonPanelDivider">#BFBFBF</color>
+    <color name="taf_themeDark_dialog_buttonDivider">#12FFFFFF</color>
+
+
+
+    <!--  ===================================  -->
+
+
+
+
+
+    <!--  buttons  -->
+    <color name="taf_btn_normal_start_bc">#646D80</color>
+    <color name="taf_btn_normal_end_bc">#646D80</color>
+    <color name="taf_btn_pressed_start_bc">#BEBEC2</color>
+    <color name="taf_btn_pressed_end_bc">#5F6167</color>
+    <color name="taf_btn_normal_tc">#ffffff</color>
+    <color name="taf_btn_pressed_tc">#000000</color>
+    <color name="taf_btn_light_tc">#bbffffff</color>
+    <color name="taf_btn_dark_tc">#99000000</color>
+
+
+
+
+
+
+
+
+
+
+
+</resources>

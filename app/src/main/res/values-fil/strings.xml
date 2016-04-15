@@ -1,0 +1,186 @@
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+ 
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+
+    <!-- Info  -->
+    <string name="alert_welcomeDialog_title">"Hi"</string>
+    <string name="alert_welcomeDialog_Message">"Ang app ay nagpapahintulot sa iyo na kumuha ng mga larawan mula sa malayo gamit ang isa sa sumusunod na mga paraan: \n \n  - pagsipol. \n - kamay pumapalakpak (o snapping daliri)."</string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">"Hindi makakonekta sa camera"</string>
+    <string name="alert_error_micFailed">"Hindi ma-activate ang microphone"</string>
+    <string name="alert_error_photoSaveFailed">"Nabigong i-save ang larawan"</string>
+
+
+    <!-- Warning  -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">"Ang tampok na Pro"</string>
+    <string name="pro_proFeatureDialog_cancelBtn">"kanselahin"</string>
+    <string name="pro_proFeatureDialog_okBtn">"Bumili"</string>
+    <string name="pro_proFeatureDialog_clappingMessage">"Mode 'kamay pumapalakpak' ay magagamit lamang sa Pro bersyon"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">"Mga Setting"</string>
+
+    <!-- General  -->
+    <string name="pref_headerTitle_general">"Pangkalahatan"</string>
+    <string name="pref_language_title">"Wika"</string>
+
+
+    <!-- Main settings  -->
+    <string name="pref_headerTitle_mainCameraSettings">"Settings Main camera"</string>
+    <string name="pref_catTitle_general">"Pangkalahatan"</string>
+    <string name="pref_enableShutterSound_title">"Paganahin ang shutter sound"</string>
+    <string name="pref_pictureSize_title">"Sukat ng Larawan"</string>
+    <string name="pref_focusMode_title">"Mode Focus"</string>
+    <string name="pref_focusMode_disabled">"Baldado"</string>
+    <string name="pref_focusMode_auto">"Auto"</string>
+    <string name="pref_focusMode_continuous">"Tuloy-tuloy na"</string>
+    <string name="pref_focusMode_infinity">"Kawalang-hanggan"</string>
+    <string name="pref_focusMode_macro">"Macro"</string>
+    <string name="pref_focusMode_fixed">"Fixed"</string>
+    <string name="pref_sceneMode_title">"Scene mode"</string>
+    <string name="pref_sceneMode__auto">"Auto"</string>
+    <string name="pref_sceneMode__action">"Aksyon"</string>
+    <string name="pref_sceneMode__barcode">"Barcode"</string>
+    <string name="pref_sceneMode__beach">"Tabing-dagat"</string>
+    <string name="pref_sceneMode__candlelight">"Liwanag ng kandila"</string>
+    <string name="pref_sceneMode__fireworks">"Mga paputok"</string>
+    <string name="pref_sceneMode__hdr">"HDR"</string>
+    <string name="pref_sceneMode__landscape">"Tanawin"</string>
+    <string name="pref_sceneMode__night">"Gabi"</string>
+    <string name="pref_sceneMode__party">"Partido"</string>
+    <string name="pref_sceneMode__portrait">"Larawan"</string>
+    <string name="pref_sceneMode__snow">"Snow"</string>
+    <string name="pref_sceneMode__sports">"Sports"</string>
+    <string name="pref_sceneMode__steadyphoto">"Tumatag photo"</string>
+    <string name="pref_sceneMode__sunset">"Paglubog ng araw"</string>
+    <string name="pref_sceneMode__theatre">"Theatre"</string>
+
+
+
+    <!-- advanced  settings -->
+    <string name="pref_headerTitle_advancedCameraSettings">"Advanced na setting ng camera"</string>
+    <string name="pref_previewSize_title">"Sukat Preview"</string>
+ 
+    <string name="pref_enableScreenFlash_title">"Gamitin ang screen bilang ilaw ng flash ni"</string>
+    <string name="pref_enableScreenFlash_Description">"Kung ang front camera ay hindi magkaroon ng flash light, ang screen ay magpapasara puti"</string>
+    <string name="pref_enableTouchToFocus_title">"Paganahin \"touch-focus\""</string>
+    <string name="pref_enableLocationRecording_title">"I-save ang lokasyon"</string>
+
+
+
+    <!-- remote  -->
+    <string name="pref_headerTitle_remoteControl">"Remote control"</string>
+    <string name="pref_catTitle_remoteControl">"Remote control"</string>
+    <string name="pref_remoteMode_title">"Remote mode"</string>
+    <string name="pref_remoteMode_disabled">"Baldado"</string>
+    <string name="pref_remoteMode_whistle">"Sumipol"</string>
+    <string name="pref_remoteMode_clapping">"Mga kamay pumapalakpak"</string>
+    <string name="pref_remoteModeDelay_title">"Delay bago ang pagkuha ng litrato"</string>
+    <string name="pref_remoteModeDelay_formattedValue">"%1$d seconds"</string>
+    <string name="pref_whistleSensitivity_title">"Sensitivity Sound"</string>
+    <string name="pref_catTitle_whistlingControl">"Sumipol"</string>
+
+
+
+    <!-- Activators  -->
+    <string name="pref_headerTitle_activators">"Activators"</string>
+    <string name="pref_catTitle_activators">"Activators"</string>
+    <string name="pref_volumeButtonsActivator_title">"Pindutan ng lakas ng tunog"</string>
+    <string name="pref_activator__disabled">"Baldado"</string>
+    <string name="pref_activator__shutter">"Tagapagsara"</string>
+    <string name="pref_activator__zoom">"Mag-zoom"</string>
+    <string name="pref_catTitle_advancedCamSettings">"Advanced na setting ng camera"</string>
+
+
+    <!-- UI  -->
+    <string name="pref_headerTitle_ui">"User interface"</string>
+    <string name="pref_showZoomUi_title">"Ipakita ang mga kontrol ng zoom"</string>
+    <string name="pref_showZoomUi_summary">"Maaari mong ayusin ang mga mag-zoom gamit vertical swipes"</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">"Gallery ay walang laman"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">"Tungkol sa amin"</string>
+    <string name="about_legalNotices_btn">"Mga legal na abiso"</string>
+    <string name="about_legalNotices_windowTitle">"Mga legal na abiso"</string>
+    <string name="about_developedBy">"Binuo ng Ouadban Youssef"</string>
+    <string name="about_sendUsEmail_btn">"Padalhan kami ng isang email"</string>
+    <string name="about_upgrade_btn">"Mag-upgrade sa Pro bersyon"</string>
+    <string name="about_contributions_btn">"Kontribusyon"</string>
+    <string name="about_contributions_windowTitle">"Kontribusyon"</string>
+    <string name="about_otherApps_btn">"Apps"</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">"I-rate ang app"</string>
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+ 
+    <string name="devApps_tiltScroll_description">"
+        Ang app na ito sa iyo upang mag-scroll sa iyong screen sa pamamagitan lamang ng Pagkiling iyong aparato, at gumagana sa lahat ng iba pang mga application
+    "</string>
+
+
+
+
+
+
+</resources>

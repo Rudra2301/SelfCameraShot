@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+
+    <Button
+        android:id="@+id/btn_debug_test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test 1"
+        />
+
+    <Button
+        android:id="@+id/btn_debug_test2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test 2"
+        />
+
+    <Button
+        android:id="@+id/btn_debug_test3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test 3"
+        />
+    <Button
+        android:id="@+id/btn_debug_test4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test 4"
+        />
+    <Button
+        android:id="@+id/btn_debug_test5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test 5"
+        />
+    <Button
+        android:id="@+id/btn_debug_test6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test 6"
+        />
+    <Button
+        android:id="@+id/btn_debug_test7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test 7"
+        />
+    <Button
+        android:id="@+id/btn_debug_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        />
+
+</LinearLayout>

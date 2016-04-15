@@ -1,0 +1,203 @@
+<resources>
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+ 
+
+    <!-- ======================================================================================= -->
+    <!-- Alerts  -->
+    <!-- ======================================================================================= -->
+
+
+    <!-- Info  -->
+    <string name="alert_welcomeDialog_title">"Привет"</string>
+    <string name="alert_welcomeDialog_Message">
+        Это приложение позволяет делать снимки удаленно, используя один из следующих способов:
+     \n\n
+     - Свист.
+      \n
+     - Руки хлопали.
+    </string>
+
+
+    <!-- Errors  -->
+    <string name="alert_error_cameraConnectionFailed">"Не удается подключиться к камере"</string>
+    <string name="alert_error_micFailed">"Невозможно активировать микрофон"</string>
+    <string name="alert_error_photoSaveFailed">"Не удалось сохранить картинку"</string>
+
+
+    <!-- Warning  -->
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pro_proFeatureDialog_title">"Про функция"</string>
+    <string name="pro_proFeatureDialog_cancelBtn">"отменить"</string>
+    <string name="pro_proFeatureDialog_okBtn">"Купить"</string>
+    <string name="pro_proFeatureDialog_clappingMessage">"Mode 'руки хлопали \"доступна только в Pro версии"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Prefs  -->
+    <!-- ======================================================================================= -->
+
+    <string name="pref_windowTitle">"Настройки"</string>
+
+    <!-- General  -->
+    <string name="pref_headerTitle_general">"Генеральная"</string>
+    <string name="pref_language_title">"Язык"</string>
+
+
+    <!-- Main settings  -->
+    <string name="pref_headerTitle_mainCameraSettings">"Основные настройки камеры"</string>
+    <string name="pref_catTitle_general">"Генеральная"</string>
+    <string name="pref_enableShutterSound_title">"Включить звук затвора"</string>
+    <string name="pref_pictureSize_title">"Размер рисунка"</string>
+    <string name="pref_focusMode_title">"Режим фокусировки"</string>
+    <string name="pref_focusMode_disabled">"дезактивированный"</string>
+    <string name="pref_focusMode_auto">"Автоматический"</string>
+    <string name="pref_focusMode_continuous">"Непрерывный"</string>
+    <string name="pref_focusMode_infinity">"Бесконечность"</string>
+    <string name="pref_focusMode_macro">"Макрос"</string>
+    <string name="pref_focusMode_fixed">"Фиксированный"</string>
+    <string name="pref_sceneMode_title">"Сюжетный режим"</string>
+    <string name="pref_sceneMode__auto">"Автоматический"</string>
+    <string name="pref_sceneMode__action">"Действие"</string>
+    <string name="pref_sceneMode__barcode">"Штрих"</string>
+    <string name="pref_sceneMode__beach">"Пляж"</string>
+    <string name="pref_sceneMode__candlelight">"Свечи"</string>
+    <string name="pref_sceneMode__fireworks">"Фейерверк"</string>
+    <string name="pref_sceneMode__hdr">"HDR"</string>
+    <string name="pref_sceneMode__landscape">"Пейзаж"</string>
+    <string name="pref_sceneMode__night">"Ночь"</string>
+    <string name="pref_sceneMode__party">"Партия"</string>
+    <string name="pref_sceneMode__portrait">"Портрет"</string>
+    <string name="pref_sceneMode__snow">"Снег"</string>
+    <string name="pref_sceneMode__sports">"Спортивный"</string>
+    <string name="pref_sceneMode__steadyphoto">"Устойчивый фото"</string>
+    <string name="pref_sceneMode__sunset">"Закат"</string>
+    <string name="pref_sceneMode__theatre">"Театр"</string>
+
+
+
+    <!-- advanced  settings -->
+    <string name="pref_headerTitle_advancedCameraSettings">"Расширенные настройки камеры"</string>
+    <string name="pref_previewSize_title">"Размер просмотра"</string>
+ 
+    <string name="pref_enableScreenFlash_title">"Используйте экран в качестве света вспышки"</string>
+    <string name="pref_enableScreenFlash_Description">"Если передняя камера не имеет вспышки света, экран станет белым"</string>
+    <string name="pref_enableTouchToFocus_title">"Включить \"прикоснуться к сосредоточиться\""</string>
+    <string name="pref_enableLocationRecording_title">"Сохранить место"</string>
+    <string name="pref_enableCustomStorage_title">Пользовательские хранения</string>
+    <string name="pref_flipH_title">Отразить горизонтально</string>
+    <string name="pref_flipV_title">Отразить вертикально</string>
+
+
+
+    <!-- remote  -->
+    <string name="pref_headerTitle_remoteControl">"Дистанционное управление"</string>
+    <string name="pref_catTitle_remoteControl">"Дистанционное управление"</string>
+    <string name="pref_remoteMode_title">"Pежим контроля"</string>
+    <string name="pref_remoteMode_disabled">"дезактивированный"</string>
+    <string name="pref_remoteMode_whistle">"Свисток"</string>
+    <string name="pref_remoteMode_clapping">"Руки хлопая"</string>
+    <string name="pref_remoteModeDelay_title">"Задержка перед принимая фото"</string>
+    <string name="pref_remoteModeDelay_formattedValue">"%1$d секунд"</string>
+    <string name="pref_whistleSensitivity_title">Чувствительность свист</string>
+    <string name="pref_catTitle_whistlingControl">"Свисток"</string>
+    <string name="pref_clappingSensitivity_title">Чувствительность хлопки</string>
+
+
+
+    <!-- Activators  -->
+    <string name="pref_headerTitle_activators">"Активаторы"</string>
+    <string name="pref_catTitle_activators">"Активаторы"</string>
+    <string name="pref_volumeButtonsActivator_title">"Кнопки регулировки громкости"</string>
+    <string name="pref_activator__disabled">"дезактивированный"</string>
+    <string name="pref_activator__shutter">"Затвор"</string>
+    <string name="pref_activator__zoom">"Увеличить"</string>
+    <string name="pref_catTitle_advancedCamSettings">"Расширенные настройки камеры"</string>
+
+
+    <!-- UI  -->
+    <string name="pref_headerTitle_ui">"Пользовательский интерфейс"</string>
+    <string name="pref_showZoomUi_title">"Показать зуммирования"</string>
+    <string name="pref_showZoomUi_summary">"Вы можете настроить зум с помощью вертикальных пойло"</string>
+    <string name="pref_enableFullscreen_title">Полноэкранный</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Gallery  -->
+    <!-- ======================================================================================= -->
+
+    <string name="gallery_alert_empty">"Галерея пуста"</string>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- About  -->
+    <!-- ======================================================================================= -->
+    <string name="about_pageTitle">"О нас"</string>
+    <string name="about_legalNotices_btn">"Юридические уведомления"</string>
+    <string name="about_legalNotices_windowTitle">"Юридические уведомления"</string>
+    <string name="about_developedBy">"Разработано Ouadban Юсеф"</string>
+    <string name="about_sendUsEmail_btn">"Отправить нам письмо"</string>
+    <string name="about_upgrade_btn">"Обновление до версии Pro"</string>
+    <string name="about_contributions_btn">"Взносы"</string>
+    <string name="about_contributions_windowTitle">"Взносы"</string>
+    <string name="about_otherApps_btn">"Приложения"</string>
+
+
+    <!-- ======================================================================================= -->
+    <!-- Share  -->
+    <!-- ======================================================================================= -->
+    <string name="share_rateUs_btn">"Оценить приложение"</string>
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Dev apps  -->
+    <!-- ======================================================================================= -->
+ 
+    <string name="devApps_tiltScroll_description">"
+        Это приложение позволяет прокручивать экран просто наклоняя устройство, и работает со всеми другими приложениями
+    "</string>
+
+
+    <string name="devApps_rapidos_description">
+        "RÁPIDOS позволяет быстро запускать приложения, совершать телефонные звонки или запускать любые другие задачи, опираясь жесты пальцем на экране."
+    </string>
+
+    <string name="devApps_opened_description" >
+        Это приложение позволит вам знать, если кто-то открыл свой ящик, или ваш шкаф, или номер или любой другой контейнер.
+    </string>
+
+
+
+</resources>

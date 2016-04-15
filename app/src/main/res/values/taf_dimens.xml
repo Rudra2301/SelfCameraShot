@@ -1,0 +1,85 @@
+<resources>
+
+
+    <!--  Default dialog -->
+    <dimen name="tafDefaultDialog_title_margin">10dp</dimen>
+    <dimen name="tafDefaultDialog_title_textSize">22sp</dimen>
+    <dimen name="tafDefaultDialog_message_margin">7dp</dimen>
+    <dimen name="tafDefaultDialog_message_textSize">16sp</dimen>
+    <dimen name="tafDefaultDialog_button_padding">10dp</dimen>
+    <dimen name="tafDefaultDialog_button_textSize">15sp</dimen>
+    <dimen name="tafDefaultDialog_icon_width">32dp</dimen>
+    <dimen name="tafDefaultDialog_icon_height">32dp</dimen>
+    <dimen name="tafDefaultDialog_icon_margin">10dp</dimen>
+    <dimen name="tafDefaultDialog_cornerRadiusTop">10dp</dimen>
+    <dimen name="tafDefaultDialog_cornerRadiusBottom">0dp</dimen>
+    <dimen name="tafDefaultDialog_content_padding">5dp</dimen>
+    <dimen name="tafDefaultDialog_messageIcon_margin">15dp</dimen>
+
+
+    <!--  Dev apps -->
+    <dimen name="taf_devApps_icon_bmargin">10dp</dimen>
+    <dimen name="taf_devApps_title_textSize">17sp</dimen>
+    <dimen name="taf_devApps_title_bmargin">10dp</dimen>
+    <dimen name="taf_devApps_description_textSize">13sp</dimen>
+    <dimen name="taf_devApps_description_bmargin">10dp</dimen>
+
+
+
+
+    <!--  Result messages -->
+    <dimen name="taf_resmsg_vmargin">15dp</dimen>
+    <dimen name="taf_resmsg_stateicon_margin">10dp</dimen>
+    <dimen name="taf_resmsg_msg_text_size">12sp</dimen>
+    <dimen name="taf_resmsg_moreinfo_text_size">12sp</dimen>
+    <dimen name="taf_resmsg_moreinfo_tmargin">10dp</dimen>
+    <dimen name="taf_resmsg_moreinfo_padding">5dp</dimen>
+    <dimen name="taf_resmsg_rawMsg_tmargin">10dp</dimen>
+    <dimen name="taf_resmsg_rawMsg_padding">5dp</dimen>
+
+
+
+
+
+
+
+
+
+
+
+    <!--  Pref slider -->
+    <dimen name="taf_prefslider_padding">10dp</dimen>
+    <dimen name="taf_prefslider_value_text_size">15sp</dimen>
+    <dimen name="taf_prefslider_bar_tpadding">40dp</dimen>
+
+
+
+
+
+    <!--  CenteredIconButton -->
+    <dimen name="taf_CenteredIconButton_caption_tmargin">10dp</dimen>
+
+
+
+    <!--  ===================================  -->
+
+
+    <!--  button  -->
+    <dimen name="taf_button_text_size">13sp</dimen>
+    <dimen name="taf_btn_radius">15dp</dimen>
+
+
+
+    <!--  Flat button  -->
+    <dimen name="taf_flatBtn_padding">5dp</dimen>
+    <dimen name="taf_flatBtn_text_size">15sp</dimen>
+    <dimen name="taf_flatBtn_vmargin">15dp</dimen>
+    <dimen name="taf_flatBtn_hmargin">15dp</dimen>
+    <dimen name="taf_flatBtn_shadowHeight">5dp</dimen>
+    <dimen name="taf_flatBtn_cornerRadius">5dp</dimen>
+
+
+
+
+
+</resources>

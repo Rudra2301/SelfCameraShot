@@ -1,0 +1,71 @@
+<resources>
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Factor x1.25 -->
+    <!-- ======================================================================================= -->
+
+
+
+    <!-- Page -->
+    <dimen name="page_padding">8.75dp</dimen>
+
+    <!-- Action bar -->
+    <dimen name="actionBar_height">8.75dp</dimen>
+
+    <!-- camera -->
+    <dimen name="camera_btn_padding">8.75dp</dimen>
+    <dimen name="camera_btn_borderWidth">1.25dp</dimen>
+
+    <dimen name="camera_captureBtn_size">125dp</dimen>
+    <dimen name="camera_captureBtn_padding">18.75dp</dimen>
+    <dimen name="camera_captureBtn_edgeMargin">18.75dp</dimen>
+
+    <dimen name="camera_zoom_progressRadius">3.75dp</dimen>
+    <dimen name="camera_zoom_thumbSize">25dp</dimen>
+    <dimen name="camera_zoom_thumbOffset">12.5dp</dimen>
+    <dimen name="camera_zoom_progressWidth">2.5dp</dimen>
+    <dimen name="camera_zoom_padding">12.5dp</dimen>
+    <dimen name="camera_zoom_panelCornerRadius">12.5dp</dimen>
+    <dimen name="camera_zoom_shadowPadding">1.25dp</dimen>
+
+    <dimen name="camera_qmenu_size">50dp</dimen>
+    <dimen name="camera_thumbnail_size">50dp</dimen>
+
+    <dimen name="camera_overlay_timerTextSize">125sp</dimen>
+    <dimen name="camera_overlay_shadowRadius">3.75dp</dimen>
+
+    <dimen name="camera_focus_frameStrokeSize">2.5dp</dimen>
+
+
+
+    <!-- About -->
+    <dimen name="about_vspace">8.75dp</dimen>
+    <dimen name="about_logoTopMargin">62.5dp</dimen>
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Pro  -->
+    <!-- ======================================================================================= -->
+    <dimen name="pro_buy_btn_textSize">21.25sp</dimen>
+    <dimen name="pro_features_item_padding">8.75dp</dimen>
+    <dimen name="pro_features_textSize">16.25sp</dimen>
+    <dimen name="pro_feature_freeValue_rmargin">3.75dp</dimen>
+    <dimen name="pro_featuresList_corner">18.75dp</dimen>
+    <dimen name="pro_lockDialog_messageTextSize">21.25sp</dimen>
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Default Buttons  -->
+    <!-- ======================================================================================= -->
+    <dimen name="btn_radius">6.25dp</dimen>
+    <dimen name="btn_padding">3.75dp</dimen>
+    <dimen name="btn_textSize">15sp</dimen>
+    <dimen name="btn_margin">8.75dp</dimen>
+    <dimen name="btn_strokeSize">1.25dp</dimen>
+
+
+</resources>

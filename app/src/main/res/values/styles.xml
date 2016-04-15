@@ -1,0 +1,110 @@
+<resources>
+
+
+
+
+    <style name="HighlightButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:background">@drawable/highlight_selector</item>
+        <item name="android:textColor">@color/page_textPrimary</item>
+        <item name="android:layout_margin">@dimen/btn_margin</item>
+        <item name="android:padding">@dimen/btn_padding</item>
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- You can also inherit from NNF_BaseTheme.Light -->
+    <style name="FilePickerTheme" parent="NNF_BaseTheme.Light">
+        <!-- Set these to match your theme -->
+        <item name="colorPrimary">@color/themeLight_primary</item>
+        <item name="colorPrimaryDark">@color/themeLight_primaryDark</item>
+        <item name="colorAccent">@color/themeLight_accent</item>
+
+        <!-- Need to set this also to style create folder dialog -->
+        <item name="alertDialogTheme">@style/FilePickerAlertDialogTheme</item>
+
+        <!-- If you want to set a specific toolbar theme, do it here -->
+        <!-- <item name="nnf_toolbarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item> -->
+    </style>
+
+    <style name="FilePickerAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/themeLight_primary</item>
+        <item name="colorPrimaryDark">@color/themeLight_primaryDark</item>
+        <item name="colorAccent">@color/themeLight_accent</item>
+    </style>
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- Android  -->
+    <!-- ======================================================================================= -->
+    <style name="MyButtonStyle" parent="@android:style/Widget.Button">
+
+    </style>
+
+
+
+
+
+    <!-- ======================================================================================= -->
+    <!-- App  -->
+    <!-- ======================================================================================= -->
+
+
+    <style name="PageStyle">
+        <item name="android:paddingTop">@dimen/page_padding</item>
+        <item name="android:paddingBottom">@dimen/page_padding</item>
+        <item name="android:paddingLeft">@dimen/page_padding</item>
+        <item name="android:paddingRight">@dimen/page_padding</item>
+        <item name="android:background">@color/page_bc</item>
+
+    </style>
+
+
+    <style name="TransPageStyle" parent="PageStyle">
+        <item name="android:background">@android:color/transparent</item>
+
+    </style>
+
+    <style name="ContentStyle">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:background">@color/page_bc</item>
+        <item name="android:textColor">@color/page_textPrimary</item>
+    </style>
+
+    <style name="TitleStyle">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:background">@color/page_bc</item>
+        <item name="android:textColor">@color/page_TitleTextColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="SecondaryContentStyle" parent="ContentStyle">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/page_textSecondary</item>
+    </style>
+
+
+    <style name="AppTheme.ActionBar" parent="Widget.AppCompat.Light.ActionBar">
+
+    </style>
+
+
+
+</resources>
